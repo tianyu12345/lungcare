@@ -1,0 +1,202 @@
+[2020-03-11T00:13:21+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T00:28:17+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T00:40:34+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T00:44:39+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T01:07:35+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T01:07:38+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T01:21:13+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T01:25:05+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T01:28:55+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T04:31:34+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T04:31:34+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T04:31:34+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T04:31:34+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T04:31:34+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T04:31:34+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T04:31:35+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T04:31:35+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T04:31:36+08:00][sql] CONNECT:[ UseTime:0.005116s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-03-11T04:31:36+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.003929s ]
+[2020-03-11T04:31:36+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` IS NULL LIMIT 1 [ RunTime:0.002785s ]
+[2020-03-11T04:31:36+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.003868s ]
+[2020-03-11T04:31:36+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.002977s ]
+[2020-03-11T04:31:36+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.002962s ]
+[2020-03-11T04:31:36+08:00][sql] CONNECT:[ UseTime:0.005976s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-03-11T04:31:36+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.004763s ]
+[2020-03-11T04:31:36+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` IS NULL LIMIT 1 [ RunTime:0.003340s ]
+[2020-03-11T04:31:36+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.004410s ]
+[2020-03-11T04:31:36+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003669s ]
+[2020-03-11T04:31:36+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003477s ]
+[2020-03-11T04:31:36+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003431s ]
+[2020-03-11T04:31:36+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003452s ]
+[2020-03-11T04:31:36+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003431s ]
+[2020-03-11T04:31:36+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003439s ]
+[2020-03-11T04:31:36+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003458s ]
+[2020-03-11T04:31:36+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003444s ]
+[2020-03-11T04:31:36+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_product` [ RunTime:0.004858s ]
+[2020-03-11T04:31:36+08:00][sql] SELECT `id`,`image`,`store_name`,`cate_id`,`price`,`ot_price`,`stock`,`unit_name` FROM `eb_store_product` WHERE  `is_benefit` = 1  AND `is_del` = 0  AND `mer_id` = 0  AND `stock` > 0  AND `is_show` = 1 ORDER BY `sort` DESC,`id` DESC LIMIT 3 [ RunTime:0.003470s ]
+[2020-03-11T04:31:36+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003497s ]
+[2020-03-11T04:31:36+08:00][sql] SELECT `id`,`image`,`store_name`,`cate_id`,`price`,`unit_name` FROM `eb_store_product` WHERE  `is_hot` = 1  AND `is_del` = 0  AND `mer_id` = 0  AND `stock` > 0  AND `is_show` = 1 ORDER BY `sort` DESC,`id` DESC LIMIT 3 [ RunTime:0.003411s ]
+[2020-03-11T04:31:36+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003424s ]
+[2020-03-11T04:31:36+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_level` [ RunTime:0.004338s ]
+[2020-03-11T04:31:36+08:00][sql] SELECT `level_id`,`is_forever`,`valid_time`,`id`,`status`,`grade` FROM `eb_user_level` WHERE  `status` = 1  AND `is_del` = 0  AND `uid` = 0 ORDER BY `grade` DESC LIMIT 1 [ RunTime:0.003306s ]
+[2020-03-11T04:31:36+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_user_level` [ RunTime:0.004329s ]
+[2020-03-11T04:31:36+08:00][sql] SELECT `discount` FROM `eb_system_user_level` WHERE  `is_show` = 1  AND `is_del` = 0 ORDER BY `grade` ASC LIMIT 1 [ RunTime:0.003307s ]
+[2020-03-11T04:31:36+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_coupon_issue` [ RunTime:0.004286s ]
+[2020-03-11T04:31:36+08:00][sql] SELECT `A`.*,`B`.`coupon_price`,`B`.`use_min_price` FROM `eb_store_coupon_issue` `A` INNER JOIN `eb_store_coupon` `B` ON `A`.`cid`=`B`.`id` WHERE  `A`.`status` = 1  AND (  (  `A`.`start_time` < 1583872296  AND `A`.`end_time` > 1583872296 ) OR (  `A`.`start_time` = 0  AND `A`.`end_time` = 0 ) )  AND `A`.`is_del` = 0  AND ( A.remain_count > 0 OR A.is_permanent = 1 ) ORDER BY `B`.`sort` DESC,`A`.`id` DESC LIMIT 3 [ RunTime:0.003584s ]
+[2020-03-11T04:31:36+08:00][sql] SHOW FULL COLUMNS FROM `eb_wechat_user` [ RunTime:0.004559s ]
+[2020-03-11T04:31:36+08:00][sql] SELECT `subscribe` FROM `eb_wechat_user` WHERE  `uid` = 0 LIMIT 1 [ RunTime:0.003273s ]
+[2020-03-11T04:31:36+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003447s ]
+[2020-03-11T04:31:38+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T04:31:38+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T04:31:38+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T04:31:38+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T04:31:38+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T04:31:38+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T04:31:38+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T04:31:38+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T04:31:39+08:00][sql] CONNECT:[ UseTime:0.005004s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-03-11T04:31:39+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.004166s ]
+[2020-03-11T04:31:39+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` IS NULL LIMIT 1 [ RunTime:0.002795s ]
+[2020-03-11T04:31:39+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.003908s ]
+[2020-03-11T04:31:39+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003071s ]
+[2020-03-11T04:31:39+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003015s ]
+[2020-03-11T04:31:39+08:00][sql] CONNECT:[ UseTime:0.005328s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-03-11T04:31:39+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.004441s ]
+[2020-03-11T04:31:39+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` IS NULL LIMIT 1 [ RunTime:0.002968s ]
+[2020-03-11T04:31:39+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.004298s ]
+[2020-03-11T04:31:39+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003154s ]
+[2020-03-11T04:31:39+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003204s ]
+[2020-03-11T04:31:39+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003108s ]
+[2020-03-11T04:31:39+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003122s ]
+[2020-03-11T04:31:39+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003062s ]
+[2020-03-11T04:31:39+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003198s ]
+[2020-03-11T04:31:39+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003151s ]
+[2020-03-11T04:31:39+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003169s ]
+[2020-03-11T04:31:39+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_product` [ RunTime:0.004838s ]
+[2020-03-11T04:31:39+08:00][sql] SELECT `id`,`image`,`store_name`,`cate_id`,`price`,`ot_price`,`stock`,`unit_name` FROM `eb_store_product` WHERE  `is_benefit` = 1  AND `is_del` = 0  AND `mer_id` = 0  AND `stock` > 0  AND `is_show` = 1 ORDER BY `sort` DESC,`id` DESC LIMIT 3 [ RunTime:0.003229s ]
+[2020-03-11T04:31:39+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003201s ]
+[2020-03-11T04:31:39+08:00][sql] SELECT `id`,`image`,`store_name`,`cate_id`,`price`,`unit_name` FROM `eb_store_product` WHERE  `is_hot` = 1  AND `is_del` = 0  AND `mer_id` = 0  AND `stock` > 0  AND `is_show` = 1 ORDER BY `sort` DESC,`id` DESC LIMIT 3 [ RunTime:0.003216s ]
+[2020-03-11T04:31:39+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003178s ]
+[2020-03-11T04:31:39+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_level` [ RunTime:0.004410s ]
+[2020-03-11T04:31:39+08:00][sql] SELECT `level_id`,`is_forever`,`valid_time`,`id`,`status`,`grade` FROM `eb_user_level` WHERE  `status` = 1  AND `is_del` = 0  AND `uid` = 0 ORDER BY `grade` DESC LIMIT 1 [ RunTime:0.003056s ]
+[2020-03-11T04:31:39+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_user_level` [ RunTime:0.004153s ]
+[2020-03-11T04:31:39+08:00][sql] SELECT `discount` FROM `eb_system_user_level` WHERE  `is_show` = 1  AND `is_del` = 0 ORDER BY `grade` ASC LIMIT 1 [ RunTime:0.003007s ]
+[2020-03-11T04:31:39+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_coupon_issue` [ RunTime:0.004047s ]
+[2020-03-11T04:31:39+08:00][sql] SELECT `A`.*,`B`.`coupon_price`,`B`.`use_min_price` FROM `eb_store_coupon_issue` `A` INNER JOIN `eb_store_coupon` `B` ON `A`.`cid`=`B`.`id` WHERE  `A`.`status` = 1  AND (  (  `A`.`start_time` < 1583872299  AND `A`.`end_time` > 1583872299 ) OR (  `A`.`start_time` = 0  AND `A`.`end_time` = 0 ) )  AND `A`.`is_del` = 0  AND ( A.remain_count > 0 OR A.is_permanent = 1 ) ORDER BY `B`.`sort` DESC,`A`.`id` DESC LIMIT 3 [ RunTime:0.003273s ]
+[2020-03-11T04:31:39+08:00][sql] SHOW FULL COLUMNS FROM `eb_wechat_user` [ RunTime:0.004329s ]
+[2020-03-11T04:31:39+08:00][sql] SELECT `subscribe` FROM `eb_wechat_user` WHERE  `uid` = 0 LIMIT 1 [ RunTime:0.002956s ]
+[2020-03-11T04:31:39+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003157s ]
+[2020-03-11T05:26:19+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T05:36:48+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T05:42:34+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T05:43:40+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T05:44:21+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T06:02:55+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T06:03:54+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T06:45:35+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T07:01:52+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T07:44:43+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T08:03:30+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T08:24:11+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T08:37:01+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T09:41:33+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T10:01:52+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T10:31:59+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T10:37:10+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T11:35:23+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T11:52:47+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T11:59:55+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T11:59:57+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T11:59:57+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T11:59:57+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T11:59:57+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T11:59:57+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T11:59:57+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T12:00:07+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T12:11:39+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T12:27:01+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T14:08:40+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T14:39:03+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T15:19:01+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T16:41:51+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T16:56:33+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T17:39:36+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T18:26:40+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T20:42:22+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T21:15:14+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T21:49:07+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T22:26:56+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T22:31:46+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T23:30:10+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T23:35:03+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-11T23:43:33+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]

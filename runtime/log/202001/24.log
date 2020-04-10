@@ -1,0 +1,83 @@
+[2020-01-24T00:29:28+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-01-24T01:02:10+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-01-24T01:42:08+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-01-24T01:53:28+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-01-24T02:23:42+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-01-24T02:44:23+08:00][sql] CONNECT:[ UseTime:0.006298s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-01-24T02:44:23+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.004952s ]
+[2020-01-24T02:44:23+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` IS NULL LIMIT 1 [ RunTime:0.003494s ]
+[2020-01-24T02:44:23+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_product` [ RunTime:0.004877s ]
+[2020-01-24T02:44:23+08:00][sql] SELECT add_time,browse,cate_id,code_path,cost,description,ficti,give_integral,id,image,is_bargain,is_benefit,is_best,is_del,is_hot,is_new,is_postage,is_seckill,is_show,keyword,mer_id,mer_use,ot_price,postage,price,sales,slider_image,sort,stock,store_info,store_name,unit_name,vip_price,IFNULL(sales,0) + IFNULL(ficti,0) as fsales FROM `eb_store_product` WHERE  `is_del` = 0  AND `is_show` = 1  AND `id` = 13 LIMIT 1 [ RunTime:0.003763s ]
+[2020-01-24T02:53:10+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-01-24T03:02:58+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-01-24T03:44:21+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-01-24T03:47:03+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-01-24T03:52:37+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-01-24T04:13:41+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-01-24T04:14:53+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-01-24T04:55:47+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-01-24T06:10:29+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-01-24T06:50:27+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-01-24T07:48:02+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-01-24T07:59:54+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-01-24T08:50:26+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-01-24T08:53:12+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-01-24T08:54:13+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-01-24T09:16:18+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-01-24T09:25:36+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-01-24T11:05:42+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-01-24T11:36:31+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-01-24T13:05:50+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-01-24T13:20:53+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-01-24T14:05:00+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-01-24T14:36:51+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-01-24T15:15:49+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-01-24T16:49:50+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-01-24T17:06:03+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-01-24T17:34:36+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-01-24T18:04:05+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-01-24T19:17:41+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-01-24T19:53:19+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-01-24T19:56:22+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-01-24T21:12:54+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-01-24T21:36:28+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-01-24T22:20:51+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]

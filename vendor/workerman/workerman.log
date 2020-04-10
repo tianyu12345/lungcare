@@ -1,0 +1,120 @@
+2019-11-05 16:44:10 pid:1 Error: Call to undefined method think\session\Store::start() in C:\phpstudy_pro\WWW\crmeb_3.0\vendor\topthink\framework\src\think\Manager.php:174
+Stack trace:
+#0 C:\phpstudy_pro\WWW\crmeb_3.0\crmeb\services\workerman\WorkermanHandle.php(31): think\Manager->__call('start', Array)
+#1 C:\phpstudy_pro\WWW\crmeb_3.0\crmeb\services\workerman\WorkermanService.php(71): crmeb\services\workerman\WorkermanHandle->login(Object(Workerman\Connection\TcpConnection), Array, Object(crmeb\services\workerman\Response))
+#2 [internal function]: crmeb\services\workerman\WorkermanService->onMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\workerman\workerman\Connection\TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '{"type":"login"...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #180)
+#5 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#6 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\workerman\workerman\Worker.php(2357): Workerman\Events\Select->loop()
+#7 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\workerman\workerman\Worker.php(1351): Workerman\Worker->run()
+#8 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\workerman\workerman\Worker.php(1294): Workerman\Worker::forkWorkersForWindows()
+#9 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 C:\phpstudy_pro\WWW\crmeb_3.0\crmeb\command\Workerman.php(99): Workerman\Worker::runAll()
+#11 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\topthink\framework\src\think\console\Command.php(210): crmeb\command\Workerman->execute(Object(think\console\Input), Object(think\console\Output))
+#12 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\topthink\framework\src\think\Console.php(600): think\console\Command->run(Object(think\console\Input), Object(think\console\Output))
+#13 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\topthink\framework\src\think\Console.php(259): think\Console->doRunCommand(Object(crmeb\command\Workerman), Object(think\console\Input), Object(think\console\Output))
+#14 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\topthink\framework\src\think\Console.php(196): think\Console->doRun(Object(think\console\Input), Object(think\console\Output))
+#15 C:\phpstudy_pro\WWW\crmeb_3.0\think(19): think\Console->run()
+#16 {main}
+2019-11-05 16:44:10 pid:1 Worker process terminated
+2019-11-05 16:47:48 pid:1 Error: Call to undefined method think\session\Store::start() in C:\phpstudy_pro\WWW\crmeb_3.0\vendor\topthink\framework\src\think\Manager.php:174
+Stack trace:
+#0 C:\phpstudy_pro\WWW\crmeb_3.0\crmeb\services\workerman\WorkermanHandle.php(31): think\Manager->__call('start', Array)
+#1 C:\phpstudy_pro\WWW\crmeb_3.0\crmeb\services\workerman\WorkermanService.php(71): crmeb\services\workerman\WorkermanHandle->login(Object(Workerman\Connection\TcpConnection), Array, Object(crmeb\services\workerman\Response))
+#2 [internal function]: crmeb\services\workerman\WorkermanService->onMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\workerman\workerman\Connection\TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '{"type":"login"...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #180)
+#5 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#6 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\workerman\workerman\Worker.php(2357): Workerman\Events\Select->loop()
+#7 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\workerman\workerman\Worker.php(1351): Workerman\Worker->run()
+#8 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\workerman\workerman\Worker.php(1294): Workerman\Worker::forkWorkersForWindows()
+#9 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 C:\phpstudy_pro\WWW\crmeb_3.0\crmeb\command\Workerman.php(99): Workerman\Worker::runAll()
+#11 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\topthink\framework\src\think\console\Command.php(210): crmeb\command\Workerman->execute(Object(think\console\Input), Object(think\console\Output))
+#12 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\topthink\framework\src\think\Console.php(600): think\console\Command->run(Object(think\console\Input), Object(think\console\Output))
+#13 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\topthink\framework\src\think\Console.php(259): think\Console->doRunCommand(Object(crmeb\command\Workerman), Object(think\console\Input), Object(think\console\Output))
+#14 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\topthink\framework\src\think\Console.php(196): think\Console->doRun(Object(think\console\Input), Object(think\console\Output))
+#15 C:\phpstudy_pro\WWW\crmeb_3.0\think(19): think\Console->run()
+#16 {main}
+2019-11-05 16:47:48 pid:1 Worker process terminated
+2019-11-05 17:01:24 pid:1 Error: Call to undefined method think\session\Store::start() in C:\phpstudy_pro\WWW\crmeb_3.0\vendor\topthink\framework\src\think\Manager.php:174
+Stack trace:
+#0 C:\phpstudy_pro\WWW\crmeb_3.0\crmeb\services\workerman\WorkermanHandle.php(31): think\Manager->__call('start', Array)
+#1 C:\phpstudy_pro\WWW\crmeb_3.0\crmeb\services\workerman\WorkermanService.php(71): crmeb\services\workerman\WorkermanHandle->login(Object(Workerman\Connection\TcpConnection), Array, Object(crmeb\services\workerman\Response))
+#2 [internal function]: crmeb\services\workerman\WorkermanService->onMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\workerman\workerman\Connection\TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '{"type":"login"...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #180)
+#5 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#6 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\workerman\workerman\Worker.php(2357): Workerman\Events\Select->loop()
+#7 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\workerman\workerman\Worker.php(1351): Workerman\Worker->run()
+#8 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\workerman\workerman\Worker.php(1294): Workerman\Worker::forkWorkersForWindows()
+#9 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 C:\phpstudy_pro\WWW\crmeb_3.0\crmeb\command\Workerman.php(99): Workerman\Worker::runAll()
+#11 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\topthink\framework\src\think\console\Command.php(210): crmeb\command\Workerman->execute(Object(think\console\Input), Object(think\console\Output))
+#12 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\topthink\framework\src\think\Console.php(600): think\console\Command->run(Object(think\console\Input), Object(think\console\Output))
+#13 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\topthink\framework\src\think\Console.php(259): think\Console->doRunCommand(Object(crmeb\command\Workerman), Object(think\console\Input), Object(think\console\Output))
+#14 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\topthink\framework\src\think\Console.php(196): think\Console->doRun(Object(think\console\Input), Object(think\console\Output))
+#15 C:\phpstudy_pro\WWW\crmeb_3.0\think(19): think\Console->run()
+#16 {main}
+2019-11-05 17:01:24 pid:1 Worker process terminated
+2019-11-05 17:23:47 pid:1 Error: Call to undefined method think\session\Store::start() in C:\phpstudy_pro\WWW\crmeb_3.0\vendor\topthink\framework\src\think\Manager.php:174
+Stack trace:
+#0 C:\phpstudy_pro\WWW\crmeb_3.0\crmeb\services\workerman\WorkermanHandle.php(31): think\Manager->__call('start', Array)
+#1 C:\phpstudy_pro\WWW\crmeb_3.0\crmeb\services\workerman\WorkermanService.php(71): crmeb\services\workerman\WorkermanHandle->login(Object(Workerman\Connection\TcpConnection), Array, Object(crmeb\services\workerman\Response))
+#2 [internal function]: crmeb\services\workerman\WorkermanService->onMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\workerman\workerman\Connection\TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '{"type":"login"...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #180)
+#5 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#6 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\workerman\workerman\Worker.php(2357): Workerman\Events\Select->loop()
+#7 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\workerman\workerman\Worker.php(1351): Workerman\Worker->run()
+#8 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\workerman\workerman\Worker.php(1294): Workerman\Worker::forkWorkersForWindows()
+#9 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 C:\phpstudy_pro\WWW\crmeb_3.0\crmeb\command\Workerman.php(99): Workerman\Worker::runAll()
+#11 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\topthink\framework\src\think\console\Command.php(210): crmeb\command\Workerman->execute(Object(think\console\Input), Object(think\console\Output))
+#12 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\topthink\framework\src\think\Console.php(600): think\console\Command->run(Object(think\console\Input), Object(think\console\Output))
+#13 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\topthink\framework\src\think\Console.php(259): think\Console->doRunCommand(Object(crmeb\command\Workerman), Object(think\console\Input), Object(think\console\Output))
+#14 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\topthink\framework\src\think\Console.php(196): think\Console->doRun(Object(think\console\Input), Object(think\console\Output))
+#15 C:\phpstudy_pro\WWW\crmeb_3.0\think(19): think\Console->run()
+#16 {main}
+2019-11-05 17:23:47 pid:1 Worker process terminated
+2019-11-05 17:24:32 pid:1 Error: Call to undefined method think\session\Store::start() in C:\phpstudy_pro\WWW\crmeb_3.0\vendor\topthink\framework\src\think\Manager.php:174
+Stack trace:
+#0 C:\phpstudy_pro\WWW\crmeb_3.0\crmeb\services\workerman\WorkermanHandle.php(31): think\Manager->__call('start', Array)
+#1 C:\phpstudy_pro\WWW\crmeb_3.0\crmeb\services\workerman\WorkermanService.php(71): crmeb\services\workerman\WorkermanHandle->login(Object(Workerman\Connection\TcpConnection), Array, Object(crmeb\services\workerman\Response))
+#2 [internal function]: crmeb\services\workerman\WorkermanService->onMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\workerman\workerman\Connection\TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '{"type":"login"...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #180)
+#5 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#6 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\workerman\workerman\Worker.php(2357): Workerman\Events\Select->loop()
+#7 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\workerman\workerman\Worker.php(1351): Workerman\Worker->run()
+#8 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\workerman\workerman\Worker.php(1294): Workerman\Worker::forkWorkersForWindows()
+#9 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 C:\phpstudy_pro\WWW\crmeb_3.0\crmeb\command\Workerman.php(99): Workerman\Worker::runAll()
+#11 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\topthink\framework\src\think\console\Command.php(210): crmeb\command\Workerman->execute(Object(think\console\Input), Object(think\console\Output))
+#12 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\topthink\framework\src\think\Console.php(600): think\console\Command->run(Object(think\console\Input), Object(think\console\Output))
+#13 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\topthink\framework\src\think\Console.php(259): think\Console->doRunCommand(Object(crmeb\command\Workerman), Object(think\console\Input), Object(think\console\Output))
+#14 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\topthink\framework\src\think\Console.php(196): think\Console->doRun(Object(think\console\Input), Object(think\console\Output))
+#15 C:\phpstudy_pro\WWW\crmeb_3.0\think(19): think\Console->run()
+#16 {main}
+2019-11-05 17:24:32 pid:1 Worker process terminated
+2019-11-05 17:25:16 pid:1 Error: Call to undefined method think\session\Store::start() in C:\phpstudy_pro\WWW\crmeb_3.0\vendor\topthink\framework\src\think\Manager.php:174
+Stack trace:
+#0 C:\phpstudy_pro\WWW\crmeb_3.0\crmeb\services\workerman\WorkermanHandle.php(31): think\Manager->__call('start', Array)
+#1 C:\phpstudy_pro\WWW\crmeb_3.0\crmeb\services\workerman\WorkermanService.php(71): crmeb\services\workerman\WorkermanHandle->login(Object(Workerman\Connection\TcpConnection), Array, Object(crmeb\services\workerman\Response))
+#2 [internal function]: crmeb\services\workerman\WorkermanService->onMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\workerman\workerman\Connection\TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '{"type":"login"...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #180)
+#5 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#6 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\workerman\workerman\Worker.php(2357): Workerman\Events\Select->loop()
+#7 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\workerman\workerman\Worker.php(1351): Workerman\Worker->run()
+#8 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\workerman\workerman\Worker.php(1294): Workerman\Worker::forkWorkersForWindows()
+#9 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 C:\phpstudy_pro\WWW\crmeb_3.0\crmeb\command\Workerman.php(99): Workerman\Worker::runAll()
+#11 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\topthink\framework\src\think\console\Command.php(210): crmeb\command\Workerman->execute(Object(think\console\Input), Object(think\console\Output))
+#12 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\topthink\framework\src\think\Console.php(600): think\console\Command->run(Object(think\console\Input), Object(think\console\Output))
+#13 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\topthink\framework\src\think\Console.php(259): think\Console->doRunCommand(Object(crmeb\command\Workerman), Object(think\console\Input), Object(think\console\Output))
+#14 C:\phpstudy_pro\WWW\crmeb_3.0\vendor\topthink\framework\src\think\Console.php(196): think\Console->doRun(Object(think\console\Input), Object(think\console\Output))
+#15 C:\phpstudy_pro\WWW\crmeb_3.0\think(19): think\Console->run()
+#16 {main}
+2019-11-05 17:25:16 pid:1 Worker process terminated

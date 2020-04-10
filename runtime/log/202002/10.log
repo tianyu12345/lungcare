@@ -1,0 +1,23 @@
+[2020-02-10T21:01:40+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-02-10T21:11:37+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-02-10T21:11:55+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-02-10T21:21:44+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-02-10T21:30:55+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-02-10T21:57:59+08:00][sql] CONNECT:[ UseTime:0.005446s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-02-10T21:57:59+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.004518s ]
+[2020-02-10T21:57:59+08:00][sql] SELECT `menu_name`,`value` FROM `eb_system_config` WHERE  `menu_name` IN ('wechat_appid','wechat_appsecret','wechat_token','wechat_encodingaeskey','wechat_encode') [ RunTime:0.003228s ]
+[2020-02-10T21:57:59+08:00][sql] SELECT `menu_name`,`value` FROM `eb_system_config` WHERE  `menu_name` IN ('pay_weixin_mchid','pay_weixin_client_cert','pay_weixin_client_key','pay_weixin_key','pay_weixin_open') [ RunTime:0.003144s ]
+[2020-02-10T21:57:59+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003249s ]
+[2020-02-10T21:57:59+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_order` [ RunTime:0.004774s ]
+[2020-02-10T21:57:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_order` WHERE  `order_id` = 'wx158130140546113050'  AND `paid` = 1 [ RunTime:0.003135s ]
+[2020-02-10T22:04:50+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-02-10T22:48:08+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-02-10T23:21:48+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]

@@ -1,0 +1,567 @@
+[2020-04-05T00:29:29+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T00:29:30+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T00:29:30+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T03:20:12+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T03:20:15+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T03:43:23+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T05:17:57+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T05:17:57+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T05:17:57+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T05:17:57+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T05:17:59+08:00][sql] CONNECT:[ UseTime:0.005760s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-04-05T05:17:59+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.004389s ]
+[2020-04-05T05:17:59+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` IS NULL LIMIT 1 [ RunTime:0.003677s ]
+[2020-04-05T05:17:59+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.005103s ]
+[2020-04-05T05:17:59+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003628s ]
+[2020-04-05T05:17:59+08:00][sql] SELECT `menu_name`,`value` FROM `eb_system_config` [ RunTime:0.005730s ]
+[2020-04-05T05:17:59+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003562s ]
+[2020-04-05T05:17:59+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T05:17:59+08:00][sql] CONNECT:[ UseTime:0.006110s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-04-05T05:17:59+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.004776s ]
+[2020-04-05T05:17:59+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` IS NULL LIMIT 1 [ RunTime:0.003410s ]
+[2020-04-05T05:17:59+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.004568s ]
+[2020-04-05T05:17:59+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003623s ]
+[2020-04-05T05:17:59+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_group_data` [ RunTime:0.007159s ]
+[2020-04-05T05:17:59+08:00][sql] SELECT `a`.*,`b`.`config_name` FROM `eb_system_group_data` `a` INNER JOIN `eb_system_group` `b` ON `a`.`gid`=`b`.`id` WHERE  `b`.`config_name` = 'routine_home_banner'  AND `a`.`status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.003606s ]
+[2020-04-05T05:17:59+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003581s ]
+[2020-04-05T05:17:59+08:00][sql] SELECT `a`.*,`b`.`config_name` FROM `eb_system_group_data` `a` INNER JOIN `eb_system_group` `b` ON `a`.`gid`=`b`.`id` WHERE  `b`.`config_name` = 'routine_home_menus'  AND `a`.`status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.003549s ]
+[2020-04-05T05:17:59+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003543s ]
+[2020-04-05T05:17:59+08:00][sql] SELECT `a`.*,`b`.`config_name` FROM `eb_system_group_data` `a` INNER JOIN `eb_system_group` `b` ON `a`.`gid`=`b`.`id` WHERE  `b`.`config_name` = 'routine_home_roll_news'  AND `a`.`status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.003547s ]
+[2020-04-05T05:17:59+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003555s ]
+[2020-04-05T05:17:59+08:00][sql] SELECT `a`.*,`b`.`config_name` FROM `eb_system_group_data` `a` INNER JOIN `eb_system_group` `b` ON `a`.`gid`=`b`.`id` WHERE  `b`.`config_name` = 'routine_home_activity'  AND `a`.`status` = 1 ORDER BY `sort` DESC,`id` ASC LIMIT 3 [ RunTime:0.003586s ]
+[2020-04-05T05:17:59+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003550s ]
+[2020-04-05T05:17:59+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003619s ]
+[2020-04-05T05:17:59+08:00][sql] SELECT `a`.*,`b`.`config_name` FROM `eb_system_group_data` `a` INNER JOIN `eb_system_group` `b` ON `a`.`gid`=`b`.`id` WHERE  `b`.`config_name` = 'routine_index_page'  AND `a`.`status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.003527s ]
+[2020-04-05T05:17:59+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003558s ]
+[2020-04-05T05:17:59+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_category` [ RunTime:0.004590s ]
+[2020-04-05T05:17:59+08:00][sql] SELECT `id`,`cate_name`,`pid`,`pic` FROM `eb_store_category` WHERE  `pid` > 0  AND `is_show` = 1 ORDER BY `sort` DESC LIMIT 10 [ RunTime:0.003547s ]
+[2020-04-05T05:17:59+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_product` [ RunTime:0.005046s ]
+[2020-04-05T05:17:59+08:00][sql] SELECT id,image,store_name,cate_id,price,ot_price,IFNULL(sales,0) + IFNULL(ficti,0) as sales,unit_name FROM `eb_store_product` WHERE  `is_best` = 1  AND `is_del` = 0  AND `mer_id` = 0  AND `stock` > 0  AND `is_show` = 1 ORDER BY `sort` DESC,`id` DESC LIMIT 10 [ RunTime:0.003711s ]
+[2020-04-05T05:17:59+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003573s ]
+[2020-04-05T05:17:59+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_level` [ RunTime:0.004563s ]
+[2020-04-05T05:17:59+08:00][sql] SELECT `level_id`,`is_forever`,`valid_time`,`id`,`status`,`grade` FROM `eb_user_level` WHERE  `status` = 1  AND `is_del` = 0  AND `uid` = 0 ORDER BY `grade` DESC LIMIT 1 [ RunTime:0.003491s ]
+[2020-04-05T05:17:59+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_user_level` [ RunTime:0.004567s ]
+[2020-04-05T05:17:59+08:00][sql] SELECT `discount` FROM `eb_system_user_level` WHERE  `is_show` = 1  AND `is_del` = 0 ORDER BY `grade` ASC LIMIT 1 [ RunTime:0.003613s ]
+[2020-04-05T05:17:59+08:00][sql] SELECT id,image,store_name,cate_id,price,unit_name,IFNULL(sales,0) + IFNULL(ficti,0) as sales FROM `eb_store_product` WHERE  `is_new` = 1  AND `is_del` = 0  AND `mer_id` = 0  AND `stock` > 0  AND `is_show` = 1 ORDER BY `sort` DESC,`id` DESC LIMIT 10 [ RunTime:0.003677s ]
+[2020-04-05T05:17:59+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003594s ]
+[2020-04-05T05:17:59+08:00][sql] SELECT `level_id`,`is_forever`,`valid_time`,`id`,`status`,`grade` FROM `eb_user_level` WHERE  `status` = 1  AND `is_del` = 0  AND `uid` = 0 ORDER BY `grade` DESC LIMIT 1 [ RunTime:0.003444s ]
+[2020-04-05T05:17:59+08:00][sql] SELECT `discount` FROM `eb_system_user_level` WHERE  `is_show` = 1  AND `is_del` = 0 ORDER BY `grade` ASC LIMIT 1 [ RunTime:0.003404s ]
+[2020-04-05T05:17:59+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003589s ]
+[2020-04-05T05:17:59+08:00][sql] SELECT `a`.*,`b`.`config_name` FROM `eb_system_group_data` `a` INNER JOIN `eb_system_group` `b` ON `a`.`gid`=`b`.`id` WHERE  `b`.`config_name` = 'routine_home_bast_banner'  AND `a`.`status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.003584s ]
+[2020-04-05T05:17:59+08:00][sql] SELECT `id`,`image`,`store_name`,`cate_id`,`price`,`ot_price`,`stock`,`unit_name` FROM `eb_store_product` WHERE  `is_benefit` = 1  AND `is_del` = 0  AND `mer_id` = 0  AND `stock` > 0  AND `is_show` = 1 ORDER BY `sort` DESC,`id` DESC LIMIT 3 [ RunTime:0.003639s ]
+[2020-04-05T05:17:59+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003553s ]
+[2020-04-05T05:17:59+08:00][sql] SELECT `a`.*,`b`.`config_name` FROM `eb_system_group_data` `a` INNER JOIN `eb_system_group` `b` ON `a`.`gid`=`b`.`id` WHERE  `b`.`config_name` = 'routine_home_new_banner'  AND `a`.`status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.003552s ]
+[2020-04-05T05:17:59+08:00][sql] SELECT `id`,`image`,`store_name`,`cate_id`,`price`,`unit_name` FROM `eb_store_product` WHERE  `is_hot` = 1  AND `is_del` = 0  AND `mer_id` = 0  AND `stock` > 0  AND `is_show` = 1 ORDER BY `sort` DESC,`id` DESC LIMIT 3 [ RunTime:0.003611s ]
+[2020-04-05T05:17:59+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003550s ]
+[2020-04-05T05:17:59+08:00][sql] SELECT `level_id`,`is_forever`,`valid_time`,`id`,`status`,`grade` FROM `eb_user_level` WHERE  `status` = 1  AND `is_del` = 0  AND `uid` = 0 ORDER BY `grade` DESC LIMIT 1 [ RunTime:0.003509s ]
+[2020-04-05T05:17:59+08:00][sql] SELECT `discount` FROM `eb_system_user_level` WHERE  `is_show` = 1  AND `is_del` = 0 ORDER BY `grade` ASC LIMIT 1 [ RunTime:0.003447s ]
+[2020-04-05T05:17:59+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_coupon_issue` [ RunTime:0.004753s ]
+[2020-04-05T05:17:59+08:00][sql] SELECT `A`.*,`B`.`coupon_price`,`B`.`use_min_price` FROM `eb_store_coupon_issue` `A` INNER JOIN `eb_store_coupon` `B` ON `A`.`cid`=`B`.`id` WHERE  `A`.`status` = 1  AND (  (  `A`.`start_time` < 1586035079  AND `A`.`end_time` > 1586035079 ) OR (  `A`.`start_time` = 0  AND `A`.`end_time` = 0 ) )  AND `A`.`is_del` = 0  AND ( A.remain_count > 0 OR A.is_permanent = 1 ) ORDER BY `B`.`sort` DESC,`A`.`id` DESC LIMIT 3 [ RunTime:0.003714s ]
+[2020-04-05T05:17:59+08:00][sql] SHOW FULL COLUMNS FROM `eb_wechat_user` [ RunTime:0.004726s ]
+[2020-04-05T05:17:59+08:00][sql] SELECT `subscribe` FROM `eb_wechat_user` WHERE  `uid` = 0 LIMIT 1 [ RunTime:0.003400s ]
+[2020-04-05T05:17:59+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003541s ]
+[2020-04-05T05:17:59+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T05:18:01+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T05:30:17+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T05:30:23+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T05:54:41+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T06:11:50+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T06:20:34+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T06:20:34+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T06:21:00+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T06:37:33+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T06:39:50+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T06:42:13+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T06:49:33+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T07:03:16+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T07:03:17+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T07:34:53+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T08:16:54+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T08:24:39+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T08:24:52+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T09:11:23+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/app/admin/view/login/index.php [ array (
+) ]
+[2020-04-05T09:11:28+08:00][sql] CONNECT:[ UseTime:0.005658s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-04-05T09:11:28+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_admin` [ RunTime:0.004240s ]
+[2020-04-05T09:11:28+08:00][sql] SELECT * FROM `eb_system_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003085s ]
+[2020-04-05T09:11:28+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_menus` [ RunTime:0.003989s ]
+[2020-04-05T09:11:28+08:00][sql] SELECT `module`,`controller`,`action`,`params` FROM `eb_system_menus` WHERE  ( `controller` <> '' OR `action` <> '' ) [ RunTime:0.003557s ]
+[2020-04-05T09:11:28+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.004238s ]
+[2020-04-05T09:11:28+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'site_logo' LIMIT 1 [ RunTime:0.003117s ]
+[2020-04-05T09:11:28+08:00][sql] SELECT * FROM `eb_system_menus` WHERE  `is_show` = 1  AND `access` = 1 ORDER BY `sort` DESC [ RunTime:0.003576s ]
+[2020-04-05T09:11:28+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003213s ]
+[2020-04-05T09:11:28+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_role` [ RunTime:0.003977s ]
+[2020-04-05T09:11:28+08:00][sql] SELECT `role_name` FROM `eb_system_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003034s ]
+[2020-04-05T09:11:28+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/app/admin/view/index/index.php [ array (
+  0 => '_admin',
+  1 => 'menuList',
+  2 => 'site_logo',
+  3 => 'new_order_audio_link',
+  4 => 'role_name',
+  5 => 'workermanPort',
+) ]
+[2020-04-05T09:11:29+08:00][sql] CONNECT:[ UseTime:0.005597s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-04-05T09:11:29+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_admin` [ RunTime:0.004754s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT * FROM `eb_system_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003422s ]
+[2020-04-05T09:11:29+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_menus` [ RunTime:0.004402s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT `module`,`controller`,`action`,`params` FROM `eb_system_menus` WHERE  ( `controller` <> '' OR `action` <> '' ) [ RunTime:0.003803s ]
+[2020-04-05T09:11:29+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_order` [ RunTime:0.005063s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_order` WHERE  `status` = 0  AND `paid` = 1  AND `refund_status` = 0 [ RunTime:0.003480s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_order` WHERE  `paid` = 1  AND `refund_status` = 1 [ RunTime:0.003385s ]
+[2020-04-05T09:11:29+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.004562s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'store_stock' LIMIT 1 [ RunTime:0.003491s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'store_stock' LIMIT 1 [ RunTime:0.003421s ]
+[2020-04-05T09:11:29+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_product` [ RunTime:0.004721s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_product` WHERE  `stock` <= 2  AND `is_show` = 1  AND `is_del` = 0 [ RunTime:0.003442s ]
+[2020-04-05T09:11:29+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_extract` [ RunTime:0.004462s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_user_extract` WHERE  `status` = 0 [ RunTime:0.003354s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_order` WHERE  `paid` = 1  AND `pay_time` BETWEEN 1585929600 AND 1586015999 [ RunTime:0.003399s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_order` WHERE  `paid` = 1  AND `pay_time` > 1585929600  AND `pay_time` < 1586016000 [ RunTime:0.003419s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT SUM(`pay_price`) AS think_sum FROM `eb_store_order` WHERE  `paid` = 1  AND `pay_time` BETWEEN 1585929600 AND 1586015999 [ RunTime:0.003345s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT SUM(`pay_price`) AS think_sum FROM `eb_store_order` WHERE  `paid` = 1  AND `pay_time` > 1585843200  AND `pay_time` < 1585929600 [ RunTime:0.003368s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT SUM(`pay_price`) AS think_sum FROM `eb_store_order` WHERE  `paid` = 1  AND `pay_time` BETWEEN 1585670400 AND 1588262399 [ RunTime:0.003404s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT sum(pay_price) FROM `eb_store_order` WHERE  `paid` = 1  AND `pay_time` > 1582992000  AND `pay_time` < 1585670400 LIMIT 1 [ RunTime:0.003366s ]
+[2020-04-05T09:11:29+08:00][sql] SHOW FULL COLUMNS FROM `eb_user` [ RunTime:0.005030s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_user` WHERE  `add_time` > 1586016000 [ RunTime:0.003346s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_user` WHERE  `add_time` > 1585929600  AND `add_time` < 1586016000 [ RunTime:0.003357s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_user` WHERE  `add_time` > 1585670400 [ RunTime:0.003345s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_user` WHERE  `add_time` > 1582992000  AND `add_time` < 1585670400 [ RunTime:0.003346s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_order` WHERE  `add_time` > 1585670400 [ RunTime:0.003341s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_order` WHERE  `add_time` > 1582992000  AND `add_time` < 1585670400 [ RunTime:0.003421s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_order` WHERE  `add_time` > 1582992000  AND `add_time` < 1585670400 [ RunTime:0.003360s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_order` WHERE  `add_time` > 1580486400  AND `add_time` < 1582992000 [ RunTime:0.003370s ]
+[2020-04-05T09:11:29+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/app/admin/view/index/main.php [ array (
+  0 => '_admin',
+  1 => 'first_line',
+  2 => 'second_line',
+  3 => 'topData',
+) ]
+[2020-04-05T09:11:29+08:00][sql] CONNECT:[ UseTime:0.005807s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-04-05T09:11:29+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_admin` [ RunTime:0.004945s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT * FROM `eb_system_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003449s ]
+[2020-04-05T09:11:29+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_menus` [ RunTime:0.004349s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT `module`,`controller`,`action`,`params` FROM `eb_system_menus` WHERE  ( `controller` <> '' OR `action` <> '' ) [ RunTime:0.003834s ]
+[2020-04-05T09:11:29+08:00][sql] SHOW FULL COLUMNS FROM `eb_user` [ RunTime:0.005013s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT FROM_UNIXTIME(add_time,'%m-%e') as day,count(*) as count FROM `eb_user` WHERE  `add_time` BETWEEN 1583424000 AND 1586016000 GROUP BY FROM_UNIXTIME(add_time,'%Y%m%e') ORDER BY `add_time` ASC [ RunTime:0.003483s ]
+[2020-04-05T09:11:29+08:00][sql] CONNECT:[ UseTime:0.005560s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-04-05T09:11:29+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_admin` [ RunTime:0.004553s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT * FROM `eb_system_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003423s ]
+[2020-04-05T09:11:29+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_menus` [ RunTime:0.004359s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT `module`,`controller`,`action`,`params` FROM `eb_system_menus` WHERE  ( `controller` <> '' OR `action` <> '' ) [ RunTime:0.003729s ]
+[2020-04-05T09:11:29+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_order` [ RunTime:0.005053s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT FROM_UNIXTIME(add_time,'%m-%d') as day,count(*) as count,sum(pay_price) as price FROM `eb_store_order` WHERE  `add_time` BETWEEN 1583424000 AND 1586016000 GROUP BY FROM_UNIXTIME(add_time,'%Y%m%d') ORDER BY `add_time` ASC [ RunTime:0.003516s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT count(*) as count,sum(pay_price) as price FROM `eb_store_order` WHERE  `add_time` BETWEEN 1580832000 AND 1583424000 LIMIT 1 [ RunTime:0.003371s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT count(*) as count,sum(pay_price) as price FROM `eb_store_order` WHERE  `add_time` BETWEEN 1583424000 AND 1586016000 LIMIT 1 [ RunTime:0.003408s ]
+[2020-04-05T09:11:29+08:00][sql] CONNECT:[ UseTime:0.004740s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-04-05T09:11:29+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_admin` [ RunTime:0.004073s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT * FROM `eb_system_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002824s ]
+[2020-04-05T09:11:29+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_menus` [ RunTime:0.003932s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT `module`,`controller`,`action`,`params` FROM `eb_system_menus` WHERE  ( `controller` <> '' OR `action` <> '' ) [ RunTime:0.003302s ]
+[2020-04-05T09:11:29+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_order` [ RunTime:0.004625s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_order` WHERE  `paid` = 1  AND `status` = 0  AND `shipping_type` = 1  AND `refund_status` = 0  AND `is_del` = 0 [ RunTime:0.002961s ]
+[2020-04-05T09:11:29+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.004193s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'store_stock' LIMIT 1 [ RunTime:0.002938s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'store_stock' LIMIT 1 [ RunTime:0.002879s ]
+[2020-04-05T09:11:29+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_product` [ RunTime:0.004351s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_product` WHERE  `stock` <= 2  AND `is_show` = 1  AND `is_del` = 0 [ RunTime:0.002980s ]
+[2020-04-05T09:11:29+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_product_reply` [ RunTime:0.004009s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_product_reply` WHERE  `is_reply` = 0 [ RunTime:0.002811s ]
+[2020-04-05T09:11:29+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_extract` [ RunTime:0.004011s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_user_extract` WHERE  `status` = 0 [ RunTime:0.002856s ]
+[2020-04-05T09:11:29+08:00][sql] SELECT `id`,`order_id` FROM `eb_store_order` WHERE  `paid` = 1  AND `status` = 0  AND `shipping_type` = 1  AND `refund_status` = 0  AND `is_del` = 0  AND `is_remind` = 0 [ RunTime:0.002902s ]
+[2020-04-05T09:12:27+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/app/admin/view/login/index.php [ array (
+) ]
+[2020-04-05T09:14:09+08:00][sql] CONNECT:[ UseTime:0.006024s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-04-05T09:14:09+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_admin` [ RunTime:0.005119s ]
+[2020-04-05T09:14:09+08:00][sql] SELECT * FROM `eb_system_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003488s ]
+[2020-04-05T09:14:09+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_menus` [ RunTime:0.004897s ]
+[2020-04-05T09:14:09+08:00][sql] SELECT `module`,`controller`,`action`,`params` FROM `eb_system_menus` WHERE  ( `controller` <> '' OR `action` <> '' ) [ RunTime:0.004052s ]
+[2020-04-05T09:14:09+08:00][sql] SHOW FULL COLUMNS FROM `eb_user` [ RunTime:0.005741s ]
+[2020-04-05T09:14:09+08:00][sql] SELECT FROM_UNIXTIME(add_time,'%m-%e') as day,count(*) as count FROM `eb_user` WHERE  `add_time` BETWEEN 1583424000 AND 1586016000 GROUP BY FROM_UNIXTIME(add_time,'%Y%m%e') ORDER BY `add_time` ASC [ RunTime:0.003561s ]
+[2020-04-05T09:14:09+08:00][sql] CONNECT:[ UseTime:0.005588s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-04-05T09:14:09+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_admin` [ RunTime:0.004700s ]
+[2020-04-05T09:14:09+08:00][sql] SELECT * FROM `eb_system_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003278s ]
+[2020-04-05T09:14:09+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_menus` [ RunTime:0.004448s ]
+[2020-04-05T09:14:09+08:00][sql] SELECT `module`,`controller`,`action`,`params` FROM `eb_system_menus` WHERE  ( `controller` <> '' OR `action` <> '' ) [ RunTime:0.003725s ]
+[2020-04-05T09:14:09+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_order` [ RunTime:0.004936s ]
+[2020-04-05T09:14:09+08:00][sql] SELECT FROM_UNIXTIME(add_time,'%m-%d') as day,count(*) as count,sum(pay_price) as price FROM `eb_store_order` WHERE  `add_time` BETWEEN 1583424000 AND 1586016000 GROUP BY FROM_UNIXTIME(add_time,'%Y%m%d') ORDER BY `add_time` ASC [ RunTime:0.003416s ]
+[2020-04-05T09:14:09+08:00][sql] SELECT count(*) as count,sum(pay_price) as price FROM `eb_store_order` WHERE  `add_time` BETWEEN 1580832000 AND 1583424000 LIMIT 1 [ RunTime:0.003264s ]
+[2020-04-05T09:14:09+08:00][sql] SELECT count(*) as count,sum(pay_price) as price FROM `eb_store_order` WHERE  `add_time` BETWEEN 1583424000 AND 1586016000 LIMIT 1 [ RunTime:0.003289s ]
+[2020-04-05T09:14:09+08:00][sql] CONNECT:[ UseTime:0.005819s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-04-05T09:14:09+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_admin` [ RunTime:0.004865s ]
+[2020-04-05T09:14:09+08:00][sql] SELECT * FROM `eb_system_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003433s ]
+[2020-04-05T09:14:09+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_menus` [ RunTime:0.004616s ]
+[2020-04-05T09:14:09+08:00][sql] SELECT `module`,`controller`,`action`,`params` FROM `eb_system_menus` WHERE  ( `controller` <> '' OR `action` <> '' ) [ RunTime:0.003969s ]
+[2020-04-05T09:14:09+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_order` [ RunTime:0.005252s ]
+[2020-04-05T09:14:09+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_order` WHERE  `paid` = 1  AND `status` = 0  AND `shipping_type` = 1  AND `refund_status` = 0  AND `is_del` = 0 [ RunTime:0.003569s ]
+[2020-04-05T09:14:09+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.004681s ]
+[2020-04-05T09:14:09+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'store_stock' LIMIT 1 [ RunTime:0.003532s ]
+[2020-04-05T09:14:09+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'store_stock' LIMIT 1 [ RunTime:0.003520s ]
+[2020-04-05T09:14:09+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_product` [ RunTime:0.005028s ]
+[2020-04-05T09:14:09+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_product` WHERE  `stock` <= 2  AND `is_show` = 1  AND `is_del` = 0 [ RunTime:0.003472s ]
+[2020-04-05T09:14:09+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_product_reply` [ RunTime:0.004659s ]
+[2020-04-05T09:14:09+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_product_reply` WHERE  `is_reply` = 0 [ RunTime:0.003430s ]
+[2020-04-05T09:14:09+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_extract` [ RunTime:0.004617s ]
+[2020-04-05T09:14:09+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_user_extract` WHERE  `status` = 0 [ RunTime:0.003518s ]
+[2020-04-05T09:14:09+08:00][sql] SELECT `id`,`order_id` FROM `eb_store_order` WHERE  `paid` = 1  AND `status` = 0  AND `shipping_type` = 1  AND `refund_status` = 0  AND `is_del` = 0  AND `is_remind` = 0 [ RunTime:0.003602s ]
+[2020-04-05T09:21:01+08:00][sql] CONNECT:[ UseTime:0.005317s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-04-05T09:21:01+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_admin` [ RunTime:0.004406s ]
+[2020-04-05T09:21:01+08:00][sql] SELECT * FROM `eb_system_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003013s ]
+[2020-04-05T09:21:01+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_menus` [ RunTime:0.003837s ]
+[2020-04-05T09:21:01+08:00][sql] SELECT `module`,`controller`,`action`,`params` FROM `eb_system_menus` WHERE  ( `controller` <> '' OR `action` <> '' ) [ RunTime:0.003291s ]
+[2020-04-05T09:21:01+08:00][sql] SELECT `menu_name` FROM `eb_system_menus` WHERE  `action` = 'index'  AND `controller` = 'order.StoreOrder'  AND `module` = 'admin'  AND `params` = '[]'  AND ( params = '[]' OR params = '[]' ) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.003191s ]
+[2020-04-05T09:21:01+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_log` [ RunTime:0.003972s ]
+[2020-04-05T09:21:01+08:00][sql] INSERT INTO `eb_system_log` SET `method` = 'admin' , `admin_id` = 1 , `add_time` = 1586049661 , `admin_name` = 'admin' , `path` = 'admin/order.storeorder/index/' , `page` = '未知' , `ip` = '119.122.112.25' , `type` = 'system' [ RunTime:0.002953s ]
+[2020-04-05T09:21:01+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_order` [ RunTime:0.004577s ]
+[2020-04-05T09:21:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_order` WHERE  `paid` = 0  AND `status` = 0  AND `refund_status` = 0  AND `is_del` = 0  AND `is_system_del` = 0 [ RunTime:0.003029s ]
+[2020-04-05T09:21:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_order` WHERE  `paid` = 1  AND `status` = 0  AND `shipping_type` = 1  AND `refund_status` = 0  AND `is_del` = 0  AND `is_system_del` = 0  AND `shipping_type` = 1 [ RunTime:0.003019s ]
+[2020-04-05T09:21:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_order` WHERE  `paid` = 1  AND `status` = 1  AND `shipping_type` = 1  AND `refund_status` = 0  AND `is_del` = 0  AND `is_system_del` = 0  AND `shipping_type` = 1 [ RunTime:0.003023s ]
+[2020-04-05T09:21:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_order` WHERE  `paid` = 1  AND `status` = 2  AND `refund_status` = 0  AND `is_del` = 0  AND `is_system_del` = 0 [ RunTime:0.002962s ]
+[2020-04-05T09:21:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_order` WHERE  `paid` = 1  AND `status` = 3  AND `refund_status` = 0  AND `is_del` = 0  AND `is_system_del` = 0 [ RunTime:0.002945s ]
+[2020-04-05T09:21:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_order` WHERE  `paid` = 1  AND `refund_status` = 1  AND `is_del` = 0  AND `is_system_del` = 0 [ RunTime:0.002996s ]
+[2020-04-05T09:21:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_order` WHERE  `paid` = 1  AND `refund_status` = 2  AND `is_del` = 0  AND `is_system_del` = 0 [ RunTime:0.002891s ]
+[2020-04-05T09:21:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_order` WHERE  `is_del` = 1  AND `is_system_del` = 0 [ RunTime:0.002932s ]
+[2020-04-05T09:21:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_order` WHERE  `paid` = 1  AND `status` = 0  AND `shipping_type` = 2  AND `refund_status` = 0  AND `is_del` = 0  AND `is_system_del` = 0 [ RunTime:0.002947s ]
+[2020-04-05T09:21:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_order` WHERE  `pink_id` = 0  AND `combination_id` = 0  AND `seckill_id` = 0  AND `bargain_id` = 0  AND `is_system_del` = 0 [ RunTime:0.002918s ]
+[2020-04-05T09:21:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_order` WHERE  ( `pink_id` > 0 OR `combination_id` > 0 )  AND `is_system_del` = 0 [ RunTime:0.002852s ]
+[2020-04-05T09:21:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_order` WHERE  `seckill_id` > 0  AND `is_system_del` = 0 [ RunTime:0.002878s ]
+[2020-04-05T09:21:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_order` WHERE  `bargain_id` > 0  AND `is_system_del` = 0 [ RunTime:0.002919s ]
+[2020-04-05T09:21:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_order` WHERE  `is_system_del` = 0  AND `pay_type` = 'weixin' [ RunTime:0.002956s ]
+[2020-04-05T09:21:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_order` WHERE  `is_system_del` = 0  AND `pay_type` = 'yue' [ RunTime:0.002914s ]
+[2020-04-05T09:21:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_order` WHERE  `is_system_del` = 0  AND `pay_type` = 'offline' [ RunTime:0.002917s ]
+[2020-04-05T09:21:01+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/app/admin/view/order/store_order/index.php [ array (
+  0 => '_admin',
+  1 => 'year',
+  2 => 'real_name',
+  3 => 'status',
+  4 => 'orderCount',
+  5 => 'payTypeCount',
+) ]
+[2020-04-05T09:21:25+08:00][sql] CONNECT:[ UseTime:0.005480s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-04-05T09:21:25+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_admin` [ RunTime:0.004592s ]
+[2020-04-05T09:21:25+08:00][sql] SELECT * FROM `eb_system_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003149s ]
+[2020-04-05T09:21:25+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_menus` [ RunTime:0.004134s ]
+[2020-04-05T09:21:25+08:00][sql] SELECT `module`,`controller`,`action`,`params` FROM `eb_system_menus` WHERE  ( `controller` <> '' OR `action` <> '' ) [ RunTime:0.003531s ]
+[2020-04-05T09:21:25+08:00][sql] SELECT `menu_name` FROM `eb_system_menus` WHERE  `action` = 'index'  AND `controller` = 'user.User'  AND `module` = 'admin'  AND `params` = '[]'  AND ( params = '[]' OR params = '[]' ) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.003395s ]
+[2020-04-05T09:21:25+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_log` [ RunTime:0.004194s ]
+[2020-04-05T09:21:25+08:00][sql] INSERT INTO `eb_system_log` SET `method` = 'admin' , `admin_id` = 1 , `add_time` = 1586049685 , `admin_name` = 'admin' , `path` = 'admin/user.user/index/' , `page` = '未知' , `ip` = '119.122.112.25' , `type` = 'system' [ RunTime:0.003183s ]
+[2020-04-05T09:21:25+08:00][sql] SHOW FULL COLUMNS FROM `eb_user` [ RunTime:0.004891s ]
+[2020-04-05T09:21:25+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_user` [ RunTime:0.003076s ]
+[2020-04-05T09:21:25+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/app/admin/view/user/user/index.php [ array (
+  0 => '_admin',
+  1 => 'count_user',
+) ]
+[2020-04-05T09:21:26+08:00][sql] CONNECT:[ UseTime:0.005845s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-04-05T09:21:26+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_admin` [ RunTime:0.004846s ]
+[2020-04-05T09:21:26+08:00][sql] SELECT * FROM `eb_system_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003576s ]
+[2020-04-05T09:21:26+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_menus` [ RunTime:0.004531s ]
+[2020-04-05T09:21:26+08:00][sql] SELECT `module`,`controller`,`action`,`params` FROM `eb_system_menus` WHERE  ( `controller` <> '' OR `action` <> '' ) [ RunTime:0.003914s ]
+[2020-04-05T09:21:26+08:00][sql] SELECT `menu_name` FROM `eb_system_menus` WHERE  `action` = '{{d.avatar}}'  AND `controller` = 'user.User'  AND `module` = 'admin'  AND `params` = '[]'  AND ( params = '[]' OR params = '[]' ) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.003712s ]
+[2020-04-05T09:21:26+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_log` [ RunTime:0.004514s ]
+[2020-04-05T09:21:26+08:00][sql] INSERT INTO `eb_system_log` SET `method` = 'admin' , `admin_id` = 1 , `add_time` = 1586049686 , `admin_name` = 'admin' , `path` = 'admin/user.user/{{d.avatar}}/' , `page` = '未知' , `ip` = '119.122.112.25' , `type` = 'system' [ RunTime:0.003526s ]
+[2020-04-05T09:21:30+08:00][sql] CONNECT:[ UseTime:0.005747s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-04-05T09:21:30+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_admin` [ RunTime:0.004819s ]
+[2020-04-05T09:21:30+08:00][sql] SELECT * FROM `eb_system_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003477s ]
+[2020-04-05T09:21:30+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_menus` [ RunTime:0.004421s ]
+[2020-04-05T09:21:30+08:00][sql] SELECT `module`,`controller`,`action`,`params` FROM `eb_system_menus` WHERE  ( `controller` <> '' OR `action` <> '' ) [ RunTime:0.003823s ]
+[2020-04-05T09:21:30+08:00][sql] SELECT `menu_name` FROM `eb_system_menus` WHERE  `action` = 'index'  AND `controller` = 'user.UserLevel'  AND `module` = 'admin'  AND `params` = '[]'  AND ( params = '[]' OR params = '[]' ) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.003776s ]
+[2020-04-05T09:21:30+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_log` [ RunTime:0.004427s ]
+[2020-04-05T09:21:30+08:00][sql] INSERT INTO `eb_system_log` SET `method` = 'admin' , `admin_id` = 1 , `add_time` = 1586049690 , `admin_name` = 'admin' , `path` = 'admin/user.userlevel/index/' , `page` = '未知' , `ip` = '119.122.112.25' , `type` = 'system' [ RunTime:0.003468s ]
+[2020-04-05T09:21:30+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/app/admin/view/user/user_level/index.php [ array (
+  0 => '_admin',
+) ]
+[2020-04-05T09:22:01+08:00][sql] CONNECT:[ UseTime:0.005124s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-04-05T09:22:01+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_admin` [ RunTime:0.004686s ]
+[2020-04-05T09:22:01+08:00][sql] SELECT * FROM `eb_system_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003146s ]
+[2020-04-05T09:22:01+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_menus` [ RunTime:0.004275s ]
+[2020-04-05T09:22:01+08:00][sql] SELECT `module`,`controller`,`action`,`params` FROM `eb_system_menus` WHERE  ( `controller` <> '' OR `action` <> '' ) [ RunTime:0.003590s ]
+[2020-04-05T09:22:01+08:00][sql] SELECT `menu_name` FROM `eb_system_menus` WHERE  `action` = 'index'  AND `controller` = 'setting.SystemConfig'  AND `module` = 'admin'  AND `params` = '[]'  AND ( params = '[]' OR params = '[]' ) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.003389s ]
+[2020-04-05T09:22:01+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_log` [ RunTime:0.004221s ]
+[2020-04-05T09:22:01+08:00][sql] INSERT INTO `eb_system_log` SET `method` = 'admin' , `admin_id` = 1 , `add_time` = 1586049721 , `admin_name` = 'admin' , `path` = 'admin/setting.systemconfig/index/' , `page` = '未知' , `ip` = '119.122.112.25' , `type` = 'system' [ RunTime:0.003143s ]
+[2020-04-05T09:22:01+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.004296s ]
+[2020-04-05T09:22:01+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `config_tab_id` = 9  AND `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.003251s ]
+[2020-04-05T09:22:01+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/app/admin/view/setting/system_config/index.php [ array (
+  0 => '_admin',
+  1 => 'tab_id',
+  2 => 'form',
+  3 => 'config_tab',
+  4 => 'list',
+) ]
+[2020-04-05T09:22:02+08:00][sql] CONNECT:[ UseTime:0.004957s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-04-05T09:22:02+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_admin` [ RunTime:0.004264s ]
+[2020-04-05T09:22:02+08:00][sql] SELECT * FROM `eb_system_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002874s ]
+[2020-04-05T09:22:02+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_menus` [ RunTime:0.003858s ]
+[2020-04-05T09:22:02+08:00][sql] SELECT `module`,`controller`,`action`,`params` FROM `eb_system_menus` WHERE  ( `controller` <> '' OR `action` <> '' ) [ RunTime:0.003258s ]
+[2020-04-05T09:22:02+08:00][sql] SELECT `menu_name` FROM `eb_system_menus` WHERE  `action` = 'index'  AND `controller` = 'agent.AgentManage'  AND `module` = 'admin'  AND `params` = '[]'  AND ( params = '[]' OR params = '[]' ) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.003145s ]
+[2020-04-05T09:22:02+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_log` [ RunTime:0.003819s ]
+[2020-04-05T09:22:02+08:00][sql] INSERT INTO `eb_system_log` SET `method` = 'admin' , `admin_id` = 1 , `add_time` = 1586049722 , `admin_name` = 'admin' , `path` = 'admin/agent.agentmanage/index/' , `page` = '未知' , `ip` = '119.122.112.25' , `type` = 'system' [ RunTime:0.002927s ]
+[2020-04-05T09:22:02+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.003987s ]
+[2020-04-05T09:22:02+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.002979s ]
+[2020-04-05T09:22:02+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/app/admin/view/agent/agent_manage/index.php [ array (
+  0 => '_admin',
+  1 => 'year',
+  2 => 'store_brokerage_statu',
+) ]
+[2020-04-05T09:24:49+08:00][sql] CONNECT:[ UseTime:0.005580s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-04-05T09:24:49+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_admin` [ RunTime:0.004672s ]
+[2020-04-05T09:24:49+08:00][sql] SELECT * FROM `eb_system_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003268s ]
+[2020-04-05T09:24:49+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_menus` [ RunTime:0.006697s ]
+[2020-04-05T09:24:49+08:00][sql] SELECT `module`,`controller`,`action`,`params` FROM `eb_system_menus` WHERE  ( `controller` <> '' OR `action` <> '' ) [ RunTime:0.003643s ]
+[2020-04-05T09:24:49+08:00][sql] SELECT `menu_name` FROM `eb_system_menus` WHERE  `action` = 'index'  AND `controller` = 'store.StoreProduct'  AND `module` = 'admin'  AND `params` = '[]'  AND ( params = '[]' OR params = '[]' ) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.003478s ]
+[2020-04-05T09:24:49+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_log` [ RunTime:0.004376s ]
+[2020-04-05T09:24:49+08:00][sql] INSERT INTO `eb_system_log` SET `method` = 'admin' , `admin_id` = 1 , `add_time` = 1586049889 , `admin_name` = 'admin' , `path` = 'admin/store.storeproduct/index/' , `page` = '未知' , `ip` = '119.122.112.25' , `type` = 'system' [ RunTime:0.003335s ]
+[2020-04-05T09:24:49+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_category` [ RunTime:0.004270s ]
+[2020-04-05T09:24:49+08:00][sql] SELECT * FROM `eb_store_category` ORDER BY `sort` DESC,`id` DESC [ RunTime:0.003249s ]
+[2020-04-05T09:24:49+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_product` [ RunTime:0.014728s ]
+[2020-04-05T09:24:49+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_product` WHERE  `is_del` = 0  AND `is_show` = 1 [ RunTime:0.003291s ]
+[2020-04-05T09:24:49+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_product` WHERE  `is_del` = 0  AND `is_show` = 0 [ RunTime:0.003241s ]
+[2020-04-05T09:24:49+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_product` WHERE  `is_del` = 0 [ RunTime:0.003128s ]
+[2020-04-05T09:24:49+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_product` `p` LEFT JOIN `eb_store_product_attr_value` `pav` ON `p`.`id`=`pav`.`product_id` WHERE  `p`.`is_show` = 1  AND `p`.`is_del` = 0  AND ( `pav`.`stock` = 0 OR `p`.`stock` = 0 ) [ RunTime:0.003256s ]
+[2020-04-05T09:24:49+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.004486s ]
+[2020-04-05T09:24:49+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003380s ]
+[2020-04-05T09:24:49+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_product` `p` LEFT JOIN `eb_store_product_attr_value` `pav` ON `p`.`id`=`pav`.`product_id` WHERE  `p`.`is_show` = 1  AND `p`.`is_del` = 0  AND `p`.`stock` <= '2' [ RunTime:0.003277s ]
+[2020-04-05T09:24:49+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_product` WHERE  `is_del` = 1 [ RunTime:0.003235s ]
+[2020-04-05T09:24:49+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/app/admin/view/store/store_product/index.php [ array (
+  0 => '_admin',
+  1 => 'cate',
+  2 => 'type',
+  3 => 'onsale',
+  4 => 'forsale',
+  5 => 'warehouse',
+  6 => 'outofstock',
+  7 => 'policeforce',
+  8 => 'recycle',
+) ]
+[2020-04-05T09:24:55+08:00][sql] CONNECT:[ UseTime:0.005122s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-04-05T09:24:55+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_admin` [ RunTime:0.004378s ]
+[2020-04-05T09:24:55+08:00][sql] SELECT * FROM `eb_system_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002949s ]
+[2020-04-05T09:24:55+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_menus` [ RunTime:0.003962s ]
+[2020-04-05T09:24:55+08:00][sql] SELECT `module`,`controller`,`action`,`params` FROM `eb_system_menus` WHERE  ( `controller` <> '' OR `action` <> '' ) [ RunTime:0.003368s ]
+[2020-04-05T09:24:55+08:00][sql] SELECT `menu_name` FROM `eb_system_menus` WHERE  `action` = 'create'  AND `controller` = 'store.StoreProduct'  AND `module` = 'admin'  AND `params` = '[]'  AND ( params = '[]' OR params = '[]' ) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.003144s ]
+[2020-04-05T09:24:55+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_log` [ RunTime:0.003966s ]
+[2020-04-05T09:24:55+08:00][sql] INSERT INTO `eb_system_log` SET `method` = 'admin' , `admin_id` = 1 , `add_time` = 1586049895 , `admin_name` = 'admin' , `path` = 'admin/store.storeproduct/create/' , `page` = '未知' , `ip` = '119.122.112.25' , `type` = 'system' [ RunTime:0.002935s ]
+[2020-04-05T09:24:55+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_category` [ RunTime:0.004152s ]
+[2020-04-05T09:24:55+08:00][sql] SELECT * FROM `eb_store_category` ORDER BY `sort` DESC,`id` DESC [ RunTime:0.002968s ]
+[2020-04-05T09:24:55+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/app/admin/view/public/form-builder.php [ array (
+  0 => '_admin',
+  1 => 'form',
+) ]
+[2020-04-05T09:24:59+08:00][sql] CONNECT:[ UseTime:0.005104s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-04-05T09:24:59+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_admin` [ RunTime:0.023089s ]
+[2020-04-05T09:24:59+08:00][sql] SELECT * FROM `eb_system_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003061s ]
+[2020-04-05T09:24:59+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_menus` [ RunTime:0.036989s ]
+[2020-04-05T09:24:59+08:00][sql] SELECT `module`,`controller`,`action`,`params` FROM `eb_system_menus` WHERE  ( `controller` <> '' OR `action` <> '' ) [ RunTime:0.003724s ]
+[2020-04-05T09:24:59+08:00][sql] SELECT `menu_name` FROM `eb_system_menus` WHERE  `action` = 'index'  AND `controller` = 'store.StoreCategory'  AND `module` = 'admin'  AND `params` = '[]'  AND ( params = '[]' OR params = '[]' ) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.003382s ]
+[2020-04-05T09:24:59+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_log` [ RunTime:0.004214s ]
+[2020-04-05T09:24:59+08:00][sql] INSERT INTO `eb_system_log` SET `method` = 'admin' , `admin_id` = 1 , `add_time` = 1586049899 , `admin_name` = 'admin' , `path` = 'admin/store.storecategory/index/' , `page` = '未知' , `ip` = '119.122.112.25' , `type` = 'system' [ RunTime:0.002961s ]
+[2020-04-05T09:24:59+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_category` [ RunTime:0.004132s ]
+[2020-04-05T09:24:59+08:00][sql] SELECT * FROM `eb_store_category` WHERE  `pid` = 0 ORDER BY `sort` DESC,`id` DESC [ RunTime:0.003033s ]
+[2020-04-05T09:24:59+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/app/admin/view/store/store_category/index.php [ array (
+  0 => '_admin',
+  1 => 'pid',
+  2 => 'cate',
+) ]
+[2020-04-05T09:25:10+08:00][sql] CONNECT:[ UseTime:0.005690s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-04-05T09:25:10+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_admin` [ RunTime:0.005034s ]
+[2020-04-05T09:25:10+08:00][sql] SELECT * FROM `eb_system_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.140995s ]
+[2020-04-05T09:25:10+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_menus` [ RunTime:0.046328s ]
+[2020-04-05T09:25:10+08:00][sql] SELECT `module`,`controller`,`action`,`params` FROM `eb_system_menus` WHERE  ( `controller` <> '' OR `action` <> '' ) [ RunTime:0.051310s ]
+[2020-04-05T09:25:10+08:00][sql] SELECT `menu_name` FROM `eb_system_menus` WHERE  `action` = 'create'  AND `controller` = 'store.StoreProduct'  AND `module` = 'admin'  AND `params` = '[]'  AND ( params = '[]' OR params = '[]' ) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.003794s ]
+[2020-04-05T09:25:10+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_log` [ RunTime:0.004757s ]
+[2020-04-05T09:25:10+08:00][sql] INSERT INTO `eb_system_log` SET `method` = 'admin' , `admin_id` = 1 , `add_time` = 1586049910 , `admin_name` = 'admin' , `path` = 'admin/store.storeproduct/create/' , `page` = '未知' , `ip` = '119.122.112.25' , `type` = 'system' [ RunTime:0.003593s ]
+[2020-04-05T09:25:10+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_category` [ RunTime:0.004898s ]
+[2020-04-05T09:25:10+08:00][sql] SELECT * FROM `eb_store_category` ORDER BY `sort` DESC,`id` DESC [ RunTime:0.003562s ]
+[2020-04-05T09:25:10+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/app/admin/view/public/form-builder.php [ array (
+  0 => '_admin',
+  1 => 'form',
+) ]
+[2020-04-05T09:26:18+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/app/admin/view/login/index.php [ array (
+) ]
+[2020-04-05T09:43:56+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T10:56:51+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T11:07:26+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T11:13:00+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T11:23:42+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T11:40:32+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T11:45:12+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T12:02:08+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T12:09:37+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T12:13:56+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T12:17:43+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T12:50:53+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T12:50:53+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T12:50:53+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T12:50:53+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T12:50:53+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T12:50:55+08:00][sql] CONNECT:[ UseTime:0.005446s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-04-05T12:50:55+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.004459s ]
+[2020-04-05T12:50:55+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` IS NULL LIMIT 1 [ RunTime:0.003105s ]
+[2020-04-05T12:50:55+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.004567s ]
+[2020-04-05T12:50:55+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003389s ]
+[2020-04-05T12:50:55+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003313s ]
+[2020-04-05T12:50:55+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T12:50:55+08:00][sql] CONNECT:[ UseTime:0.005309s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-04-05T12:50:55+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.004326s ]
+[2020-04-05T12:50:55+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` IS NULL LIMIT 1 [ RunTime:0.003030s ]
+[2020-04-05T12:50:55+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.004090s ]
+[2020-04-05T12:50:55+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003245s ]
+[2020-04-05T12:50:55+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003189s ]
+[2020-04-05T12:50:55+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003150s ]
+[2020-04-05T12:50:55+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003209s ]
+[2020-04-05T12:50:55+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003215s ]
+[2020-04-05T12:50:55+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003131s ]
+[2020-04-05T12:50:55+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003246s ]
+[2020-04-05T12:50:55+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_category` [ RunTime:0.004030s ]
+[2020-04-05T12:50:55+08:00][sql] SELECT `id`,`cate_name`,`pid`,`pic` FROM `eb_store_category` WHERE  `pid` > 0  AND `is_show` = 1 ORDER BY `sort` DESC LIMIT 10 [ RunTime:0.003172s ]
+[2020-04-05T12:50:55+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_product` [ RunTime:0.005354s ]
+[2020-04-05T12:50:55+08:00][sql] SELECT id,image,store_name,cate_id,price,ot_price,IFNULL(sales,0) + IFNULL(ficti,0) as sales,unit_name FROM `eb_store_product` WHERE  `is_best` = 1  AND `is_del` = 0  AND `mer_id` = 0  AND `stock` > 0  AND `is_show` = 1 ORDER BY `sort` DESC,`id` DESC LIMIT 10 [ RunTime:0.003274s ]
+[2020-04-05T12:50:55+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003182s ]
+[2020-04-05T12:50:55+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_level` [ RunTime:0.004003s ]
+[2020-04-05T12:50:55+08:00][sql] SELECT `level_id`,`is_forever`,`valid_time`,`id`,`status`,`grade` FROM `eb_user_level` WHERE  `status` = 1  AND `is_del` = 0  AND `uid` = 0 ORDER BY `grade` DESC LIMIT 1 [ RunTime:0.003079s ]
+[2020-04-05T12:50:55+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_user_level` [ RunTime:0.004049s ]
+[2020-04-05T12:50:55+08:00][sql] SELECT `discount` FROM `eb_system_user_level` WHERE  `is_show` = 1  AND `is_del` = 0 ORDER BY `grade` ASC LIMIT 1 [ RunTime:0.003113s ]
+[2020-04-05T12:50:55+08:00][sql] SELECT id,image,store_name,cate_id,price,unit_name,IFNULL(sales,0) + IFNULL(ficti,0) as sales FROM `eb_store_product` WHERE  `is_new` = 1  AND `is_del` = 0  AND `mer_id` = 0  AND `stock` > 0  AND `is_show` = 1 ORDER BY `sort` DESC,`id` DESC LIMIT 10 [ RunTime:0.003196s ]
+[2020-04-05T12:50:55+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003132s ]
+[2020-04-05T12:50:55+08:00][sql] SELECT `level_id`,`is_forever`,`valid_time`,`id`,`status`,`grade` FROM `eb_user_level` WHERE  `status` = 1  AND `is_del` = 0  AND `uid` = 0 ORDER BY `grade` DESC LIMIT 1 [ RunTime:0.003012s ]
+[2020-04-05T12:50:55+08:00][sql] SELECT `discount` FROM `eb_system_user_level` WHERE  `is_show` = 1  AND `is_del` = 0 ORDER BY `grade` ASC LIMIT 1 [ RunTime:0.003042s ]
+[2020-04-05T12:50:55+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003202s ]
+[2020-04-05T12:50:55+08:00][sql] SELECT `id`,`image`,`store_name`,`cate_id`,`price`,`ot_price`,`stock`,`unit_name` FROM `eb_store_product` WHERE  `is_benefit` = 1  AND `is_del` = 0  AND `mer_id` = 0  AND `stock` > 0  AND `is_show` = 1 ORDER BY `sort` DESC,`id` DESC LIMIT 3 [ RunTime:0.003155s ]
+[2020-04-05T12:50:55+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003164s ]
+[2020-04-05T12:50:55+08:00][sql] SELECT `id`,`image`,`store_name`,`cate_id`,`price`,`unit_name` FROM `eb_store_product` WHERE  `is_hot` = 1  AND `is_del` = 0  AND `mer_id` = 0  AND `stock` > 0  AND `is_show` = 1 ORDER BY `sort` DESC,`id` DESC LIMIT 3 [ RunTime:0.003150s ]
+[2020-04-05T12:50:55+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003173s ]
+[2020-04-05T12:50:55+08:00][sql] SELECT `level_id`,`is_forever`,`valid_time`,`id`,`status`,`grade` FROM `eb_user_level` WHERE  `status` = 1  AND `is_del` = 0  AND `uid` = 0 ORDER BY `grade` DESC LIMIT 1 [ RunTime:0.003026s ]
+[2020-04-05T12:50:55+08:00][sql] SELECT `discount` FROM `eb_system_user_level` WHERE  `is_show` = 1  AND `is_del` = 0 ORDER BY `grade` ASC LIMIT 1 [ RunTime:0.003090s ]
+[2020-04-05T12:50:55+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_coupon_issue` [ RunTime:0.004267s ]
+[2020-04-05T12:50:55+08:00][sql] SELECT `A`.*,`B`.`coupon_price`,`B`.`use_min_price` FROM `eb_store_coupon_issue` `A` INNER JOIN `eb_store_coupon` `B` ON `A`.`cid`=`B`.`id` WHERE  `A`.`status` = 1  AND (  (  `A`.`start_time` < 1586062255  AND `A`.`end_time` > 1586062255 ) OR (  `A`.`start_time` = 0  AND `A`.`end_time` = 0 ) )  AND `A`.`is_del` = 0  AND ( A.remain_count > 0 OR A.is_permanent = 1 ) ORDER BY `B`.`sort` DESC,`A`.`id` DESC LIMIT 3 [ RunTime:0.003359s ]
+[2020-04-05T12:50:55+08:00][sql] SHOW FULL COLUMNS FROM `eb_wechat_user` [ RunTime:0.004323s ]
+[2020-04-05T12:50:55+08:00][sql] SELECT `subscribe` FROM `eb_wechat_user` WHERE  `uid` = 0 LIMIT 1 [ RunTime:0.003088s ]
+[2020-04-05T12:50:55+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003142s ]
+[2020-04-05T12:50:55+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T12:50:57+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T12:53:31+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T12:53:46+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T13:04:05+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T13:25:03+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T13:51:18+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T13:54:23+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T13:54:23+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T15:25:58+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T15:25:58+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T15:25:58+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T15:35:23+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T16:35:28+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T16:44:17+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T17:01:58+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T17:01:58+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T17:02:05+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T17:02:05+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T17:02:05+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T17:02:05+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T17:02:10+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T17:02:10+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T17:06:14+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T17:13:35+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T17:16:37+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T17:16:38+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T17:16:43+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T17:17:24+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T17:53:04+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T17:56:01+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T17:56:01+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T18:13:33+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T18:41:53+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T18:49:16+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T18:51:47+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T19:06:32+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T21:38:00+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T22:41:15+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T23:05:15+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-04-05T23:49:17+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]

@@ -1,0 +1,696 @@
+[2020-03-21T00:21:13+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T00:21:45+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T00:25:52+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T00:43:09+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T00:44:20+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T00:48:35+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T01:39:54+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T01:49:56+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T01:58:27+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T02:31:35+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T02:35:46+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T02:42:37+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T03:00:21+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T03:20:35+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T03:23:34+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T03:23:39+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T03:23:41+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T03:54:45+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T04:03:10+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T04:08:28+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T04:20:05+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T04:20:18+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T04:20:19+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T04:36:46+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T04:46:31+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T04:54:44+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T04:56:17+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T05:20:21+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T05:20:21+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T05:20:21+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T05:20:21+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T05:20:24+08:00][sql] CONNECT:[ UseTime:0.005980s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-03-21T05:20:24+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.004596s ]
+[2020-03-21T05:20:24+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` IS NULL LIMIT 1 [ RunTime:0.003672s ]
+[2020-03-21T05:20:24+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.004646s ]
+[2020-03-21T05:20:24+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003706s ]
+[2020-03-21T05:20:24+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003682s ]
+[2020-03-21T05:20:24+08:00][sql] CONNECT:[ UseTime:0.005828s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-03-21T05:20:24+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.004570s ]
+[2020-03-21T05:20:24+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` IS NULL LIMIT 1 [ RunTime:0.003278s ]
+[2020-03-21T05:20:24+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.004405s ]
+[2020-03-21T05:20:24+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003582s ]
+[2020-03-21T05:20:24+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003490s ]
+[2020-03-21T05:20:24+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003463s ]
+[2020-03-21T05:20:24+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003438s ]
+[2020-03-21T05:20:24+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003471s ]
+[2020-03-21T05:20:24+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003441s ]
+[2020-03-21T05:20:24+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003473s ]
+[2020-03-21T05:20:24+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_category` [ RunTime:0.004264s ]
+[2020-03-21T05:20:24+08:00][sql] SELECT `id`,`cate_name`,`pid`,`pic` FROM `eb_store_category` WHERE  `pid` > 0  AND `is_show` = 1 ORDER BY `sort` DESC LIMIT 10 [ RunTime:0.003455s ]
+[2020-03-21T05:20:24+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_product` [ RunTime:0.004661s ]
+[2020-03-21T05:20:24+08:00][sql] SELECT id,image,store_name,cate_id,price,ot_price,IFNULL(sales,0) + IFNULL(ficti,0) as sales,unit_name FROM `eb_store_product` WHERE  `is_best` = 1  AND `is_del` = 0  AND `mer_id` = 0  AND `stock` > 0  AND `is_show` = 1 ORDER BY `sort` DESC,`id` DESC LIMIT 10 [ RunTime:0.003472s ]
+[2020-03-21T05:20:24+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003428s ]
+[2020-03-21T05:20:24+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_level` [ RunTime:0.004301s ]
+[2020-03-21T05:20:24+08:00][sql] SELECT `level_id`,`is_forever`,`valid_time`,`id`,`status`,`grade` FROM `eb_user_level` WHERE  `status` = 1  AND `is_del` = 0  AND `uid` = 0 ORDER BY `grade` DESC LIMIT 1 [ RunTime:0.003341s ]
+[2020-03-21T05:20:24+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_user_level` [ RunTime:0.004301s ]
+[2020-03-21T05:20:24+08:00][sql] SELECT `discount` FROM `eb_system_user_level` WHERE  `is_show` = 1  AND `is_del` = 0 ORDER BY `grade` ASC LIMIT 1 [ RunTime:0.003311s ]
+[2020-03-21T05:20:24+08:00][sql] SELECT id,image,store_name,cate_id,price,unit_name,IFNULL(sales,0) + IFNULL(ficti,0) as sales FROM `eb_store_product` WHERE  `is_new` = 1  AND `is_del` = 0  AND `mer_id` = 0  AND `stock` > 0  AND `is_show` = 1 ORDER BY `sort` DESC,`id` DESC LIMIT 10 [ RunTime:0.003435s ]
+[2020-03-21T05:20:24+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003505s ]
+[2020-03-21T05:20:24+08:00][sql] SELECT `level_id`,`is_forever`,`valid_time`,`id`,`status`,`grade` FROM `eb_user_level` WHERE  `status` = 1  AND `is_del` = 0  AND `uid` = 0 ORDER BY `grade` DESC LIMIT 1 [ RunTime:0.003427s ]
+[2020-03-21T05:20:24+08:00][sql] SELECT `discount` FROM `eb_system_user_level` WHERE  `is_show` = 1  AND `is_del` = 0 ORDER BY `grade` ASC LIMIT 1 [ RunTime:0.003357s ]
+[2020-03-21T05:20:24+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003452s ]
+[2020-03-21T05:20:24+08:00][sql] SELECT `id`,`image`,`store_name`,`cate_id`,`price`,`ot_price`,`stock`,`unit_name` FROM `eb_store_product` WHERE  `is_benefit` = 1  AND `is_del` = 0  AND `mer_id` = 0  AND `stock` > 0  AND `is_show` = 1 ORDER BY `sort` DESC,`id` DESC LIMIT 3 [ RunTime:0.003521s ]
+[2020-03-21T05:20:24+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003554s ]
+[2020-03-21T05:20:24+08:00][sql] SELECT `id`,`image`,`store_name`,`cate_id`,`price`,`unit_name` FROM `eb_store_product` WHERE  `is_hot` = 1  AND `is_del` = 0  AND `mer_id` = 0  AND `stock` > 0  AND `is_show` = 1 ORDER BY `sort` DESC,`id` DESC LIMIT 3 [ RunTime:0.003612s ]
+[2020-03-21T05:20:24+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003424s ]
+[2020-03-21T05:20:24+08:00][sql] SELECT `level_id`,`is_forever`,`valid_time`,`id`,`status`,`grade` FROM `eb_user_level` WHERE  `status` = 1  AND `is_del` = 0  AND `uid` = 0 ORDER BY `grade` DESC LIMIT 1 [ RunTime:0.003375s ]
+[2020-03-21T05:20:24+08:00][sql] SELECT `discount` FROM `eb_system_user_level` WHERE  `is_show` = 1  AND `is_del` = 0 ORDER BY `grade` ASC LIMIT 1 [ RunTime:0.003273s ]
+[2020-03-21T05:20:24+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_coupon_issue` [ RunTime:0.004377s ]
+[2020-03-21T05:20:24+08:00][sql] SELECT `A`.*,`B`.`coupon_price`,`B`.`use_min_price` FROM `eb_store_coupon_issue` `A` INNER JOIN `eb_store_coupon` `B` ON `A`.`cid`=`B`.`id` WHERE  `A`.`status` = 1  AND (  (  `A`.`start_time` < 1584739224  AND `A`.`end_time` > 1584739224 ) OR (  `A`.`start_time` = 0  AND `A`.`end_time` = 0 ) )  AND `A`.`is_del` = 0  AND ( A.remain_count > 0 OR A.is_permanent = 1 ) ORDER BY `B`.`sort` DESC,`A`.`id` DESC LIMIT 3 [ RunTime:0.003569s ]
+[2020-03-21T05:20:24+08:00][sql] SHOW FULL COLUMNS FROM `eb_wechat_user` [ RunTime:0.004516s ]
+[2020-03-21T05:20:24+08:00][sql] SELECT `subscribe` FROM `eb_wechat_user` WHERE  `uid` = 0 LIMIT 1 [ RunTime:0.003359s ]
+[2020-03-21T05:20:24+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003414s ]
+[2020-03-21T05:20:26+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T05:20:27+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T05:34:50+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T05:44:17+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T06:31:48+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T06:40:41+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T07:19:37+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T07:57:56+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T08:07:44+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T08:50:05+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T08:57:00+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T09:12:34+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T09:12:50+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T09:43:09+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T09:47:33+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T10:16:06+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T10:34:45+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T10:34:45+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T10:34:45+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T10:34:45+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T10:34:48+08:00][sql] CONNECT:[ UseTime:0.004884s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-03-21T10:34:48+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.004340s ]
+[2020-03-21T10:34:48+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` IS NULL LIMIT 1 [ RunTime:0.002840s ]
+[2020-03-21T10:34:48+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.003983s ]
+[2020-03-21T10:34:48+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003079s ]
+[2020-03-21T10:34:48+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.002998s ]
+[2020-03-21T10:34:49+08:00][sql] CONNECT:[ UseTime:0.006212s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-03-21T10:34:49+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.004660s ]
+[2020-03-21T10:34:49+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` IS NULL LIMIT 1 [ RunTime:0.003532s ]
+[2020-03-21T10:34:49+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.004660s ]
+[2020-03-21T10:34:49+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003685s ]
+[2020-03-21T10:34:49+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003691s ]
+[2020-03-21T10:34:49+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003687s ]
+[2020-03-21T10:34:49+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003671s ]
+[2020-03-21T10:34:49+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003710s ]
+[2020-03-21T10:34:49+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003721s ]
+[2020-03-21T10:34:49+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.004047s ]
+[2020-03-21T10:34:49+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_category` [ RunTime:0.004616s ]
+[2020-03-21T10:34:49+08:00][sql] SELECT `id`,`cate_name`,`pid`,`pic` FROM `eb_store_category` WHERE  `pid` > 0  AND `is_show` = 1 ORDER BY `sort` DESC LIMIT 10 [ RunTime:0.003703s ]
+[2020-03-21T10:34:49+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_product` [ RunTime:0.005017s ]
+[2020-03-21T10:34:49+08:00][sql] SELECT id,image,store_name,cate_id,price,ot_price,IFNULL(sales,0) + IFNULL(ficti,0) as sales,unit_name FROM `eb_store_product` WHERE  `is_best` = 1  AND `is_del` = 0  AND `mer_id` = 0  AND `stock` > 0  AND `is_show` = 1 ORDER BY `sort` DESC,`id` DESC LIMIT 10 [ RunTime:0.003747s ]
+[2020-03-21T10:34:49+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003693s ]
+[2020-03-21T10:34:49+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_level` [ RunTime:0.004610s ]
+[2020-03-21T10:34:49+08:00][sql] SELECT `level_id`,`is_forever`,`valid_time`,`id`,`status`,`grade` FROM `eb_user_level` WHERE  `status` = 1  AND `is_del` = 0  AND `uid` = 0 ORDER BY `grade` DESC LIMIT 1 [ RunTime:0.003634s ]
+[2020-03-21T10:34:49+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_user_level` [ RunTime:0.004658s ]
+[2020-03-21T10:34:49+08:00][sql] SELECT `discount` FROM `eb_system_user_level` WHERE  `is_show` = 1  AND `is_del` = 0 ORDER BY `grade` ASC LIMIT 1 [ RunTime:0.003689s ]
+[2020-03-21T10:34:49+08:00][sql] SELECT id,image,store_name,cate_id,price,unit_name,IFNULL(sales,0) + IFNULL(ficti,0) as sales FROM `eb_store_product` WHERE  `is_new` = 1  AND `is_del` = 0  AND `mer_id` = 0  AND `stock` > 0  AND `is_show` = 1 ORDER BY `sort` DESC,`id` DESC LIMIT 10 [ RunTime:0.003715s ]
+[2020-03-21T10:34:49+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003705s ]
+[2020-03-21T10:34:49+08:00][sql] SELECT `level_id`,`is_forever`,`valid_time`,`id`,`status`,`grade` FROM `eb_user_level` WHERE  `status` = 1  AND `is_del` = 0  AND `uid` = 0 ORDER BY `grade` DESC LIMIT 1 [ RunTime:0.003581s ]
+[2020-03-21T10:34:49+08:00][sql] SELECT `discount` FROM `eb_system_user_level` WHERE  `is_show` = 1  AND `is_del` = 0 ORDER BY `grade` ASC LIMIT 1 [ RunTime:0.003586s ]
+[2020-03-21T10:34:49+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003703s ]
+[2020-03-21T10:34:49+08:00][sql] SELECT `id`,`image`,`store_name`,`cate_id`,`price`,`ot_price`,`stock`,`unit_name` FROM `eb_store_product` WHERE  `is_benefit` = 1  AND `is_del` = 0  AND `mer_id` = 0  AND `stock` > 0  AND `is_show` = 1 ORDER BY `sort` DESC,`id` DESC LIMIT 3 [ RunTime:0.003687s ]
+[2020-03-21T10:34:49+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003772s ]
+[2020-03-21T10:34:49+08:00][sql] SELECT `id`,`image`,`store_name`,`cate_id`,`price`,`unit_name` FROM `eb_store_product` WHERE  `is_hot` = 1  AND `is_del` = 0  AND `mer_id` = 0  AND `stock` > 0  AND `is_show` = 1 ORDER BY `sort` DESC,`id` DESC LIMIT 3 [ RunTime:0.003667s ]
+[2020-03-21T10:34:49+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003694s ]
+[2020-03-21T10:34:49+08:00][sql] SELECT `level_id`,`is_forever`,`valid_time`,`id`,`status`,`grade` FROM `eb_user_level` WHERE  `status` = 1  AND `is_del` = 0  AND `uid` = 0 ORDER BY `grade` DESC LIMIT 1 [ RunTime:0.003589s ]
+[2020-03-21T10:34:49+08:00][sql] SELECT `discount` FROM `eb_system_user_level` WHERE  `is_show` = 1  AND `is_del` = 0 ORDER BY `grade` ASC LIMIT 1 [ RunTime:0.003589s ]
+[2020-03-21T10:34:49+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_coupon_issue` [ RunTime:0.004942s ]
+[2020-03-21T10:34:49+08:00][sql] SELECT `A`.*,`B`.`coupon_price`,`B`.`use_min_price` FROM `eb_store_coupon_issue` `A` INNER JOIN `eb_store_coupon` `B` ON `A`.`cid`=`B`.`id` WHERE  `A`.`status` = 1  AND (  (  `A`.`start_time` < 1584758089  AND `A`.`end_time` > 1584758089 ) OR (  `A`.`start_time` = 0  AND `A`.`end_time` = 0 ) )  AND `A`.`is_del` = 0  AND ( A.remain_count > 0 OR A.is_permanent = 1 ) ORDER BY `B`.`sort` DESC,`A`.`id` DESC LIMIT 3 [ RunTime:0.003769s ]
+[2020-03-21T10:34:49+08:00][sql] SHOW FULL COLUMNS FROM `eb_wechat_user` [ RunTime:0.005083s ]
+[2020-03-21T10:34:49+08:00][sql] SELECT `subscribe` FROM `eb_wechat_user` WHERE  `uid` = 0 LIMIT 1 [ RunTime:0.003525s ]
+[2020-03-21T10:34:49+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003794s ]
+[2020-03-21T10:34:50+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T10:34:50+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T10:36:01+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T10:47:12+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T10:51:48+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T10:52:16+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T11:35:47+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T11:39:04+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T11:39:41+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T11:47:07+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T11:56:51+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T11:56:53+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T12:02:41+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T12:41:29+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T12:45:59+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T13:01:26+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T13:17:46+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T13:21:50+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T13:45:53+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T13:52:20+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T13:55:57+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T14:45:07+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T15:03:23+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T15:08:25+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T15:45:42+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T16:44:27+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T16:47:10+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T16:48:07+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T16:48:07+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T16:48:07+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T16:48:07+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T16:48:07+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T16:48:07+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T16:48:07+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T16:48:07+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T16:48:10+08:00][sql] CONNECT:[ UseTime:0.006019s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-03-21T16:48:10+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.004788s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` IS NULL LIMIT 1 [ RunTime:0.003623s ]
+[2020-03-21T16:48:10+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.005034s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003774s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003738s ]
+[2020-03-21T16:48:10+08:00][sql] CONNECT:[ UseTime:0.005898s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-03-21T16:48:10+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.004491s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` IS NULL LIMIT 1 [ RunTime:0.003409s ]
+[2020-03-21T16:48:10+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.004599s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003668s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003543s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003810s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003590s ]
+[2020-03-21T16:48:10+08:00][sql] CONNECT:[ UseTime:0.005804s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-03-21T16:48:10+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.004775s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` IS NULL LIMIT 1 [ RunTime:0.003274s ]
+[2020-03-21T16:48:10+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.004426s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT `menu_name`,`value` FROM `eb_system_config` WHERE  `menu_name` IN ('wechat_appid','wechat_appsecret','wechat_token','wechat_encodingaeskey','wechat_encode') [ RunTime:0.003391s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT `menu_name`,`value` FROM `eb_system_config` WHERE  `menu_name` IN ('pay_weixin_mchid','pay_weixin_client_cert','pay_weixin_client_key','pay_weixin_key','pay_weixin_open') [ RunTime:0.003298s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003428s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT `menu_name`,`value` FROM `eb_system_config` [ RunTime:0.003329s ]
+[2020-03-21T16:48:10+08:00][sql] CONNECT:[ UseTime:0.005703s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-03-21T16:48:10+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.004625s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` IS NULL LIMIT 1 [ RunTime:0.003402s ]
+[2020-03-21T16:48:10+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.004574s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT `menu_name`,`value` FROM `eb_system_config` WHERE  `menu_name` IN ('wechat_appid','wechat_appsecret','wechat_token','wechat_encodingaeskey','wechat_encode') [ RunTime:0.003477s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT `menu_name`,`value` FROM `eb_system_config` WHERE  `menu_name` IN ('pay_weixin_mchid','pay_weixin_client_cert','pay_weixin_client_key','pay_weixin_key','pay_weixin_open') [ RunTime:0.003444s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003550s ]
+[2020-03-21T16:48:10+08:00][sql] CONNECT:[ UseTime:0.006326s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-03-21T16:48:10+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.005758s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` IS NULL LIMIT 1 [ RunTime:0.003609s ]
+[2020-03-21T16:48:10+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.005282s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.004013s ]
+[2020-03-21T16:48:10+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_group_data` [ RunTime:0.004723s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT `a`.*,`b`.`config_name` FROM `eb_system_group_data` `a` INNER JOIN `eb_system_group` `b` ON `a`.`gid`=`b`.`id` WHERE  `b`.`config_name` = 'routine_home_banner'  AND `a`.`status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.003814s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003747s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT `a`.*,`b`.`config_name` FROM `eb_system_group_data` `a` INNER JOIN `eb_system_group` `b` ON `a`.`gid`=`b`.`id` WHERE  `b`.`config_name` = 'routine_home_menus'  AND `a`.`status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.003684s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003819s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT `a`.*,`b`.`config_name` FROM `eb_system_group_data` `a` INNER JOIN `eb_system_group` `b` ON `a`.`gid`=`b`.`id` WHERE  `b`.`config_name` = 'routine_home_roll_news'  AND `a`.`status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.003704s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003704s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT `a`.*,`b`.`config_name` FROM `eb_system_group_data` `a` INNER JOIN `eb_system_group` `b` ON `a`.`gid`=`b`.`id` WHERE  `b`.`config_name` = 'routine_home_activity'  AND `a`.`status` = 1 ORDER BY `sort` DESC,`id` ASC LIMIT 3 [ RunTime:0.003753s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003707s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003684s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT `a`.*,`b`.`config_name` FROM `eb_system_group_data` `a` INNER JOIN `eb_system_group` `b` ON `a`.`gid`=`b`.`id` WHERE  `b`.`config_name` = 'routine_index_page'  AND `a`.`status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.003886s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003779s ]
+[2020-03-21T16:48:10+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_category` [ RunTime:0.004783s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT `id`,`cate_name`,`pid`,`pic` FROM `eb_store_category` WHERE  `pid` > 0  AND `is_show` = 1 ORDER BY `sort` DESC LIMIT 10 [ RunTime:0.003874s ]
+[2020-03-21T16:48:10+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_product` [ RunTime:0.005336s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT id,image,store_name,cate_id,price,ot_price,IFNULL(sales,0) + IFNULL(ficti,0) as sales,unit_name FROM `eb_store_product` WHERE  `is_best` = 1  AND `is_del` = 0  AND `mer_id` = 0  AND `stock` > 0  AND `is_show` = 1 ORDER BY `sort` DESC,`id` DESC LIMIT 10 [ RunTime:0.003794s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.004429s ]
+[2020-03-21T16:48:10+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_level` [ RunTime:0.004742s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT `level_id`,`is_forever`,`valid_time`,`id`,`status`,`grade` FROM `eb_user_level` WHERE  `status` = 1  AND `is_del` = 0  AND `uid` = 0 ORDER BY `grade` DESC LIMIT 1 [ RunTime:0.003618s ]
+[2020-03-21T16:48:10+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_user_level` [ RunTime:0.004798s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT `discount` FROM `eb_system_user_level` WHERE  `is_show` = 1  AND `is_del` = 0 ORDER BY `grade` ASC LIMIT 1 [ RunTime:0.003623s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT id,image,store_name,cate_id,price,unit_name,IFNULL(sales,0) + IFNULL(ficti,0) as sales FROM `eb_store_product` WHERE  `is_new` = 1  AND `is_del` = 0  AND `mer_id` = 0  AND `stock` > 0  AND `is_show` = 1 ORDER BY `sort` DESC,`id` DESC LIMIT 10 [ RunTime:0.003741s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003719s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT `level_id`,`is_forever`,`valid_time`,`id`,`status`,`grade` FROM `eb_user_level` WHERE  `status` = 1  AND `is_del` = 0  AND `uid` = 0 ORDER BY `grade` DESC LIMIT 1 [ RunTime:0.003606s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT `discount` FROM `eb_system_user_level` WHERE  `is_show` = 1  AND `is_del` = 0 ORDER BY `grade` ASC LIMIT 1 [ RunTime:0.003591s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003694s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT `a`.*,`b`.`config_name` FROM `eb_system_group_data` `a` INNER JOIN `eb_system_group` `b` ON `a`.`gid`=`b`.`id` WHERE  `b`.`config_name` = 'routine_home_bast_banner'  AND `a`.`status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.003755s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT `id`,`image`,`store_name`,`cate_id`,`price`,`ot_price`,`stock`,`unit_name` FROM `eb_store_product` WHERE  `is_benefit` = 1  AND `is_del` = 0  AND `mer_id` = 0  AND `stock` > 0  AND `is_show` = 1 ORDER BY `sort` DESC,`id` DESC LIMIT 3 [ RunTime:0.003729s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003734s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT `a`.*,`b`.`config_name` FROM `eb_system_group_data` `a` INNER JOIN `eb_system_group` `b` ON `a`.`gid`=`b`.`id` WHERE  `b`.`config_name` = 'routine_home_new_banner'  AND `a`.`status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.003692s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT `id`,`image`,`store_name`,`cate_id`,`price`,`unit_name` FROM `eb_store_product` WHERE  `is_hot` = 1  AND `is_del` = 0  AND `mer_id` = 0  AND `stock` > 0  AND `is_show` = 1 ORDER BY `sort` DESC,`id` DESC LIMIT 3 [ RunTime:0.003699s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003720s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT `level_id`,`is_forever`,`valid_time`,`id`,`status`,`grade` FROM `eb_user_level` WHERE  `status` = 1  AND `is_del` = 0  AND `uid` = 0 ORDER BY `grade` DESC LIMIT 1 [ RunTime:0.003695s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT `discount` FROM `eb_system_user_level` WHERE  `is_show` = 1  AND `is_del` = 0 ORDER BY `grade` ASC LIMIT 1 [ RunTime:0.003634s ]
+[2020-03-21T16:48:10+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_coupon_issue` [ RunTime:0.004965s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT `A`.*,`B`.`coupon_price`,`B`.`use_min_price` FROM `eb_store_coupon_issue` `A` INNER JOIN `eb_store_coupon` `B` ON `A`.`cid`=`B`.`id` WHERE  `A`.`status` = 1  AND (  (  `A`.`start_time` < 1584780490  AND `A`.`end_time` > 1584780490 ) OR (  `A`.`start_time` = 0  AND `A`.`end_time` = 0 ) )  AND `A`.`is_del` = 0  AND ( A.remain_count > 0 OR A.is_permanent = 1 ) ORDER BY `B`.`sort` DESC,`A`.`id` DESC LIMIT 3 [ RunTime:0.003863s ]
+[2020-03-21T16:48:10+08:00][sql] SHOW FULL COLUMNS FROM `eb_wechat_user` [ RunTime:0.004910s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT `subscribe` FROM `eb_wechat_user` WHERE  `uid` = 0 LIMIT 1 [ RunTime:0.003559s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003700s ]
+[2020-03-21T16:48:10+08:00][sql] CONNECT:[ UseTime:0.005636s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-03-21T16:48:10+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.005332s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` IS NULL LIMIT 1 [ RunTime:0.003447s ]
+[2020-03-21T16:48:10+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.005198s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003698s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003615s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003608s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003596s ]
+[2020-03-21T16:48:10+08:00][sql] CONNECT:[ UseTime:0.005039s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-03-21T16:48:10+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.004250s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` IS NULL LIMIT 1 [ RunTime:0.002954s ]
+[2020-03-21T16:48:10+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.004113s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT `menu_name`,`value` FROM `eb_system_config` WHERE  `menu_name` IN ('wechat_appid','wechat_appsecret','wechat_token','wechat_encodingaeskey','wechat_encode') [ RunTime:0.003069s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT `menu_name`,`value` FROM `eb_system_config` WHERE  `menu_name` IN ('pay_weixin_mchid','pay_weixin_client_cert','pay_weixin_client_key','pay_weixin_key','pay_weixin_open') [ RunTime:0.003025s ]
+[2020-03-21T16:48:10+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003061s ]
+[2020-03-21T16:48:13+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T16:48:14+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T16:48:14+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T16:48:14+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T16:48:14+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T16:48:14+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T16:48:14+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T16:48:14+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T16:48:14+08:00][sql] CONNECT:[ UseTime:0.006712s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-03-21T16:48:14+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.015163s ]
+[2020-03-21T16:48:14+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` IS NULL LIMIT 1 [ RunTime:0.003904s ]
+[2020-03-21T16:48:14+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.005254s ]
+[2020-03-21T16:48:14+08:00][sql] SELECT `menu_name`,`value` FROM `eb_system_config` WHERE  `menu_name` IN ('wechat_appid','wechat_appsecret','wechat_token','wechat_encodingaeskey','wechat_encode') [ RunTime:0.004012s ]
+[2020-03-21T16:48:14+08:00][sql] SELECT `menu_name`,`value` FROM `eb_system_config` WHERE  `menu_name` IN ('pay_weixin_mchid','pay_weixin_client_cert','pay_weixin_client_key','pay_weixin_key','pay_weixin_open') [ RunTime:0.003983s ]
+[2020-03-21T16:48:14+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.004211s ]
+[2020-03-21T16:48:14+08:00][sql] CONNECT:[ UseTime:0.014247s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-03-21T16:48:14+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.051254s ]
+[2020-03-21T16:48:14+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` IS NULL LIMIT 1 [ RunTime:0.003216s ]
+[2020-03-21T16:48:14+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.004540s ]
+[2020-03-21T16:48:14+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003396s ]
+[2020-03-21T16:48:14+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003352s ]
+[2020-03-21T16:48:14+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003418s ]
+[2020-03-21T16:48:14+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003335s ]
+[2020-03-21T16:48:15+08:00][sql] CONNECT:[ UseTime:0.005701s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-03-21T16:48:15+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.004754s ]
+[2020-03-21T16:48:15+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` IS NULL LIMIT 1 [ RunTime:0.003375s ]
+[2020-03-21T16:48:15+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.004571s ]
+[2020-03-21T16:48:15+08:00][sql] SELECT `menu_name`,`value` FROM `eb_system_config` WHERE  `menu_name` IN ('wechat_appid','wechat_appsecret','wechat_token','wechat_encodingaeskey','wechat_encode') [ RunTime:0.003468s ]
+[2020-03-21T16:48:15+08:00][sql] SELECT `menu_name`,`value` FROM `eb_system_config` WHERE  `menu_name` IN ('pay_weixin_mchid','pay_weixin_client_cert','pay_weixin_client_key','pay_weixin_key','pay_weixin_open') [ RunTime:0.003453s ]
+[2020-03-21T16:48:15+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003574s ]
+[2020-03-21T16:48:15+08:00][sql] SHOW FULL COLUMNS FROM `eb_wechat_user` [ RunTime:0.005027s ]
+[2020-03-21T16:48:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_wechat_user` WHERE  `openid` = 'oGk8SuD4T4BNS41ydbf3WMYxbELI' [ RunTime:0.003432s ]
+[2020-03-21T16:48:15+08:00][sql] SHOW FULL COLUMNS FROM `eb_user` [ RunTime:0.004721s ]
+[2020-03-21T16:48:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_user` WHERE  `uid` = 0 [ RunTime:0.003334s ]
+[2020-03-21T16:48:15+08:00][sql] SELECT `uid` FROM `eb_wechat_user` WHERE  `openid` = 'oGk8SuD4T4BNS41ydbf3WMYxbELI'  AND `user_type` <> 'h5' LIMIT 1 [ RunTime:0.003435s ]
+[2020-03-21T16:48:15+08:00][sql] INSERT INTO `eb_wechat_user` SET `openid` = 'oGk8SuD4T4BNS41ydbf3WMYxbELI' , `nickname` = 'L' , `sex` = 2 , `language` = 'zh_CN' , `city` = '深圳' , `province` = '广东' , `country` = '中国' , `headimgurl` = 'http://thirdwx.qlogo.cn/mmopen/vi_32/OVJONAgKK7jDFdey5JpFKl4ibI2Hkw2SGUP677R3XRIMke5tlt5AUbkvia5oE9U02eq5vT90TdDib5LvRZlfeG72A/132' , `subscribe` = 0 [ RunTime:0.003474s ]
+[2020-03-21T16:48:15+08:00][sql] INSERT INTO `eb_user` SET `account` = 'wx271584780495' , `pwd` = 'e10adc3949ba59abbe56e057f20f883e' , `nickname` = 'L' , `avatar` = 'http://thirdwx.qlogo.cn/mmopen/vi_32/OVJONAgKK7jDFdey5JpFKl4ibI2Hkw2SGUP677R3XRIMke5tlt5AUbkvia5oE9U02eq5vT90TdDib5LvRZlfeG72A/132' , `spread_uid` = 0 , `add_time` = 1584780495 , `add_ip` = '157.255.193.24' , `last_time` = 1584780495 , `last_ip` = '157.255.193.24' , `uid` = 27 , `user_type` = 'wechat' [ RunTime:0.003514s ]
+[2020-03-21T16:48:15+08:00][sql] SELECT `uid` FROM `eb_wechat_user` WHERE  `openid` = 'oGk8SuD4T4BNS41ydbf3WMYxbELI'  AND `user_type` <> 'h5' LIMIT 1 [ RunTime:0.003433s ]
+[2020-03-21T16:48:15+08:00][sql] SELECT * FROM `eb_user` WHERE  `uid` = 27 LIMIT 1 [ RunTime:0.003503s ]
+[2020-03-21T16:48:15+08:00][sql] UPDATE `eb_user`  SET `last_time` = 1584780495 , `last_ip` = '157.255.193.24'  WHERE  `uid` = 27  LIMIT 1 [ RunTime:0.003378s ]
+[2020-03-21T16:48:15+08:00][sql] SELECT `uid` FROM `eb_wechat_user` WHERE  `openid` = 'oGk8SuD4T4BNS41ydbf3WMYxbELI'  AND `user_type` <> 'h5' LIMIT 1 [ RunTime:0.003521s ]
+[2020-03-21T16:48:15+08:00][sql] SELECT * FROM `eb_user` WHERE  `uid` = 27 LIMIT 1 [ RunTime:0.003456s ]
+[2020-03-21T16:48:15+08:00][sql] INSERT INTO `eb_user_token` SET `uid` = 27 , `token` = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3ZWkubHVuZ2NhcmUuc2hvcCIsImF1ZCI6IndlaS5sdW5nY2FyZS5zaG9wIiwiaWF0IjoxNTg0NzgwNDk1LCJuYmYiOjE1ODQ3ODA0OTUsImV4cCI6MTU4NDc5MTI5NSwianRpIjp7ImlkIjoyNywidHlwZSI6IndlY2hhdCJ9fQ.nEyrE6shNOCZ5PCHLwfphdxvZr2Vr2Poym1Dn-MBQsc' , `expires_time` = '2020-03-21 19:48:15' , `create_time` = '2020-03-21 16:48:15.045510' , `login_ip` = '157.255.193.24' [ RunTime:0.003432s ]
+[2020-03-21T16:48:15+08:00][sql] SELECT * FROM `eb_user` WHERE  `uid` = 27 LIMIT 1 [ RunTime:0.003450s ]
+[2020-03-21T16:48:15+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T16:48:15+08:00][sql] CONNECT:[ UseTime:0.005588s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-03-21T16:48:15+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.004736s ]
+[2020-03-21T16:48:15+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` IS NULL LIMIT 1 [ RunTime:0.003383s ]
+[2020-03-21T16:48:15+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.004625s ]
+[2020-03-21T16:48:15+08:00][sql] SELECT `menu_name`,`value` FROM `eb_system_config` WHERE  `menu_name` IN ('wechat_appid','wechat_appsecret','wechat_token','wechat_encodingaeskey','wechat_encode') [ RunTime:0.003474s ]
+[2020-03-21T16:48:15+08:00][sql] SELECT `menu_name`,`value` FROM `eb_system_config` WHERE  `menu_name` IN ('pay_weixin_mchid','pay_weixin_client_cert','pay_weixin_client_key','pay_weixin_key','pay_weixin_open') [ RunTime:0.003420s ]
+[2020-03-21T16:48:15+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003547s ]
+[2020-03-21T16:48:15+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T16:48:15+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T16:48:15+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T16:48:15+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T16:48:15+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T16:48:15+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T16:48:15+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T16:48:15+08:00][sql] CONNECT:[ UseTime:0.005350s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-03-21T16:48:15+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.004586s ]
+[2020-03-21T16:48:15+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3ZWkubHVuZ2NhcmUuc2hvcCIsImF1ZCI6IndlaS5sdW5nY2FyZS5zaG9wIiwiaWF0IjoxNTg0NzgwNDk1LCJuYmYiOjE1ODQ3ODA0OTUsImV4cCI6MTU4NDc5MTI5NSwianRpIjp7ImlkIjoyNywidHlwZSI6IndlY2hhdCJ9fQ.nEyrE6shNOCZ5PCHLwfphdxvZr2Vr2Poym1Dn-MBQsc' LIMIT 1 [ RunTime:0.003301s ]
+[2020-03-21T16:48:15+08:00][sql] SHOW FULL COLUMNS FROM `eb_user` [ RunTime:0.004636s ]
+[2020-03-21T16:48:15+08:00][sql] SELECT * FROM `eb_user` WHERE  `uid` = 27 LIMIT 1 [ RunTime:0.003303s ]
+[2020-03-21T16:48:15+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.004346s ]
+[2020-03-21T16:48:15+08:00][sql] SELECT `menu_name`,`value` FROM `eb_system_config` WHERE  `menu_name` IN ('wechat_appid','wechat_appsecret','wechat_token','wechat_encodingaeskey','wechat_encode') [ RunTime:0.003302s ]
+[2020-03-21T16:48:15+08:00][sql] SELECT `menu_name`,`value` FROM `eb_system_config` WHERE  `menu_name` IN ('pay_weixin_mchid','pay_weixin_client_cert','pay_weixin_client_key','pay_weixin_key','pay_weixin_open') [ RunTime:0.003284s ]
+[2020-03-21T16:48:15+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003312s ]
+[2020-03-21T16:48:15+08:00][sql] CONNECT:[ UseTime:0.005219s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-03-21T16:48:15+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.004228s ]
+[2020-03-21T16:48:15+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3ZWkubHVuZ2NhcmUuc2hvcCIsImF1ZCI6IndlaS5sdW5nY2FyZS5zaG9wIiwiaWF0IjoxNTg0NzgwNDk1LCJuYmYiOjE1ODQ3ODA0OTUsImV4cCI6MTU4NDc5MTI5NSwianRpIjp7ImlkIjoyNywidHlwZSI6IndlY2hhdCJ9fQ.nEyrE6shNOCZ5PCHLwfphdxvZr2Vr2Poym1Dn-MBQsc' LIMIT 1 [ RunTime:0.003252s ]
+[2020-03-21T16:48:15+08:00][sql] SHOW FULL COLUMNS FROM `eb_user` [ RunTime:0.004535s ]
+[2020-03-21T16:48:15+08:00][sql] SELECT * FROM `eb_user` WHERE  `uid` = 27 LIMIT 1 [ RunTime:0.003317s ]
+[2020-03-21T16:48:15+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.004121s ]
+[2020-03-21T16:48:15+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003339s ]
+[2020-03-21T16:48:15+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003237s ]
+[2020-03-21T16:48:15+08:00][sql] CONNECT:[ UseTime:0.004727s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-03-21T16:48:15+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.003944s ]
+[2020-03-21T16:48:15+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3ZWkubHVuZ2NhcmUuc2hvcCIsImF1ZCI6IndlaS5sdW5nY2FyZS5zaG9wIiwiaWF0IjoxNTg0NzgwNDk1LCJuYmYiOjE1ODQ3ODA0OTUsImV4cCI6MTU4NDc5MTI5NSwianRpIjp7ImlkIjoyNywidHlwZSI6IndlY2hhdCJ9fQ.nEyrE6shNOCZ5PCHLwfphdxvZr2Vr2Poym1Dn-MBQsc' LIMIT 1 [ RunTime:0.002984s ]
+[2020-03-21T16:48:15+08:00][sql] SHOW FULL COLUMNS FROM `eb_user` [ RunTime:0.004263s ]
+[2020-03-21T16:48:15+08:00][sql] SELECT * FROM `eb_user` WHERE  `uid` = 27 LIMIT 1 [ RunTime:0.002935s ]
+[2020-03-21T16:48:15+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.003923s ]
+[2020-03-21T16:48:15+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003007s ]
+[2020-03-21T16:48:15+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003054s ]
+[2020-03-21T16:48:15+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.002979s ]
+[2020-03-21T16:48:15+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003041s ]
+[2020-03-21T16:48:16+08:00][sql] CONNECT:[ UseTime:0.005301s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-03-21T16:48:16+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.004589s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3ZWkubHVuZ2NhcmUuc2hvcCIsImF1ZCI6IndlaS5sdW5nY2FyZS5zaG9wIiwiaWF0IjoxNTg0NzgwNDk1LCJuYmYiOjE1ODQ3ODA0OTUsImV4cCI6MTU4NDc5MTI5NSwianRpIjp7ImlkIjoyNywidHlwZSI6IndlY2hhdCJ9fQ.nEyrE6shNOCZ5PCHLwfphdxvZr2Vr2Poym1Dn-MBQsc' LIMIT 1 [ RunTime:0.003191s ]
+[2020-03-21T16:48:16+08:00][sql] SHOW FULL COLUMNS FROM `eb_user` [ RunTime:0.004549s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT * FROM `eb_user` WHERE  `uid` = 27 LIMIT 1 [ RunTime:0.003247s ]
+[2020-03-21T16:48:16+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.004170s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT `menu_name`,`value` FROM `eb_system_config` WHERE  `menu_name` IN ('wechat_appid','wechat_appsecret','wechat_token','wechat_encodingaeskey','wechat_encode') [ RunTime:0.003167s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT `menu_name`,`value` FROM `eb_system_config` WHERE  `menu_name` IN ('pay_weixin_mchid','pay_weixin_client_cert','pay_weixin_client_key','pay_weixin_key','pay_weixin_open') [ RunTime:0.003138s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003217s ]
+[2020-03-21T16:48:16+08:00][sql] CONNECT:[ UseTime:0.005390s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-03-21T16:48:16+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.004862s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3ZWkubHVuZ2NhcmUuc2hvcCIsImF1ZCI6IndlaS5sdW5nY2FyZS5zaG9wIiwiaWF0IjoxNTg0NzgwNDk1LCJuYmYiOjE1ODQ3ODA0OTUsImV4cCI6MTU4NDc5MTI5NSwianRpIjp7ImlkIjoyNywidHlwZSI6IndlY2hhdCJ9fQ.nEyrE6shNOCZ5PCHLwfphdxvZr2Vr2Poym1Dn-MBQsc' LIMIT 1 [ RunTime:0.003312s ]
+[2020-03-21T16:48:16+08:00][sql] SHOW FULL COLUMNS FROM `eb_user` [ RunTime:0.004560s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT * FROM `eb_user` WHERE  `uid` = 27 LIMIT 1 [ RunTime:0.003425s ]
+[2020-03-21T16:48:16+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.004483s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003344s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003309s ]
+[2020-03-21T16:48:16+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_group_data` [ RunTime:0.004364s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT `a`.*,`b`.`config_name` FROM `eb_system_group_data` `a` INNER JOIN `eb_system_group` `b` ON `a`.`gid`=`b`.`id` WHERE  `b`.`config_name` = 'routine_home_menus'  AND `a`.`status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.003508s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003498s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003628s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003591s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003557s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003604s ]
+[2020-03-21T16:48:16+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_category` [ RunTime:0.005227s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT `id`,`cate_name`,`pid`,`pic` FROM `eb_store_category` WHERE  `pid` > 0  AND `is_show` = 1 ORDER BY `sort` DESC LIMIT 10 [ RunTime:0.003451s ]
+[2020-03-21T16:48:16+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_product` [ RunTime:0.005692s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT id,image,store_name,cate_id,price,ot_price,IFNULL(sales,0) + IFNULL(ficti,0) as sales,unit_name FROM `eb_store_product` WHERE  `is_best` = 1  AND `is_del` = 0  AND `mer_id` = 0  AND `stock` > 0  AND `is_show` = 1 ORDER BY `sort` DESC,`id` DESC LIMIT 10 [ RunTime:0.003633s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003407s ]
+[2020-03-21T16:48:16+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_level` [ RunTime:0.005163s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT `level_id`,`is_forever`,`valid_time`,`id`,`status`,`grade` FROM `eb_user_level` WHERE  `status` = 1  AND `is_del` = 0  AND `uid` = 27 ORDER BY `grade` DESC LIMIT 1 [ RunTime:0.003375s ]
+[2020-03-21T16:48:16+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_user_level` [ RunTime:0.005050s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT `discount` FROM `eb_system_user_level` WHERE  `is_show` = 1  AND `is_del` = 0 ORDER BY `grade` ASC LIMIT 1 [ RunTime:0.003340s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT id,image,store_name,cate_id,price,unit_name,IFNULL(sales,0) + IFNULL(ficti,0) as sales FROM `eb_store_product` WHERE  `is_new` = 1  AND `is_del` = 0  AND `mer_id` = 0  AND `stock` > 0  AND `is_show` = 1 ORDER BY `sort` DESC,`id` DESC LIMIT 10 [ RunTime:0.003559s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003538s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT `level_id`,`is_forever`,`valid_time`,`id`,`status`,`grade` FROM `eb_user_level` WHERE  `status` = 1  AND `is_del` = 0  AND `uid` = 27 ORDER BY `grade` DESC LIMIT 1 [ RunTime:0.003462s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT `discount` FROM `eb_system_user_level` WHERE  `is_show` = 1  AND `is_del` = 0 ORDER BY `grade` ASC LIMIT 1 [ RunTime:0.003331s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003534s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT `id`,`image`,`store_name`,`cate_id`,`price`,`ot_price`,`stock`,`unit_name` FROM `eb_store_product` WHERE  `is_benefit` = 1  AND `is_del` = 0  AND `mer_id` = 0  AND `stock` > 0  AND `is_show` = 1 ORDER BY `sort` DESC,`id` DESC LIMIT 3 [ RunTime:0.003672s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003496s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT `id`,`image`,`store_name`,`cate_id`,`price`,`unit_name` FROM `eb_store_product` WHERE  `is_hot` = 1  AND `is_del` = 0  AND `mer_id` = 0  AND `stock` > 0  AND `is_show` = 1 ORDER BY `sort` DESC,`id` DESC LIMIT 3 [ RunTime:0.003611s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003564s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT `level_id`,`is_forever`,`valid_time`,`id`,`status`,`grade` FROM `eb_user_level` WHERE  `status` = 1  AND `is_del` = 0  AND `uid` = 0 ORDER BY `grade` DESC LIMIT 1 [ RunTime:0.003615s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT `discount` FROM `eb_system_user_level` WHERE  `is_show` = 1  AND `is_del` = 0 ORDER BY `grade` ASC LIMIT 1 [ RunTime:0.003372s ]
+[2020-03-21T16:48:16+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_coupon_issue` [ RunTime:0.005356s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT `A`.*,`B`.`coupon_price`,`B`.`use_min_price` FROM `eb_store_coupon_issue` `A` INNER JOIN `eb_store_coupon` `B` ON `A`.`cid`=`B`.`id` WHERE  `A`.`status` = 1  AND (  (  `A`.`start_time` < 1584780496  AND `A`.`end_time` > 1584780496 ) OR (  `A`.`start_time` = 0  AND `A`.`end_time` = 0 ) )  AND `A`.`is_del` = 0  AND ( A.remain_count > 0 OR A.is_permanent = 1 ) ORDER BY `B`.`sort` DESC,`A`.`id` DESC LIMIT 3 [ RunTime:0.003533s ]
+[2020-03-21T16:48:16+08:00][sql] SHOW FULL COLUMNS FROM `eb_wechat_user` [ RunTime:0.005436s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT `subscribe` FROM `eb_wechat_user` WHERE  `uid` = 27 LIMIT 1 [ RunTime:0.003355s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003553s ]
+[2020-03-21T16:48:16+08:00][sql] CONNECT:[ UseTime:0.005692s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-03-21T16:48:16+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.004821s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3ZWkubHVuZ2NhcmUuc2hvcCIsImF1ZCI6IndlaS5sdW5nY2FyZS5zaG9wIiwiaWF0IjoxNTg0NzgwNDk1LCJuYmYiOjE1ODQ3ODA0OTUsImV4cCI6MTU4NDc5MTI5NSwianRpIjp7ImlkIjoyNywidHlwZSI6IndlY2hhdCJ9fQ.nEyrE6shNOCZ5PCHLwfphdxvZr2Vr2Poym1Dn-MBQsc' LIMIT 1 [ RunTime:0.003511s ]
+[2020-03-21T16:48:16+08:00][sql] SHOW FULL COLUMNS FROM `eb_user` [ RunTime:0.004846s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT * FROM `eb_user` WHERE  `uid` = 27 LIMIT 1 [ RunTime:0.003639s ]
+[2020-03-21T16:48:16+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.004624s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003616s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003553s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003597s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003535s ]
+[2020-03-21T16:48:16+08:00][sql] CONNECT:[ UseTime:0.005914s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-03-21T16:48:16+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.040510s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3ZWkubHVuZ2NhcmUuc2hvcCIsImF1ZCI6IndlaS5sdW5nY2FyZS5zaG9wIiwiaWF0IjoxNTg0NzgwNDk1LCJuYmYiOjE1ODQ3ODA0OTUsImV4cCI6MTU4NDc5MTI5NSwianRpIjp7ImlkIjoyNywidHlwZSI6IndlY2hhdCJ9fQ.nEyrE6shNOCZ5PCHLwfphdxvZr2Vr2Poym1Dn-MBQsc' LIMIT 1 [ RunTime:0.003745s ]
+[2020-03-21T16:48:16+08:00][sql] SHOW FULL COLUMNS FROM `eb_user` [ RunTime:0.005183s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT * FROM `eb_user` WHERE  `uid` = 27 LIMIT 1 [ RunTime:0.003720s ]
+[2020-03-21T16:48:16+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.004694s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT `menu_name`,`value` FROM `eb_system_config` WHERE  `menu_name` IN ('wechat_appid','wechat_appsecret','wechat_token','wechat_encodingaeskey','wechat_encode') [ RunTime:0.003703s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT `menu_name`,`value` FROM `eb_system_config` WHERE  `menu_name` IN ('pay_weixin_mchid','pay_weixin_client_cert','pay_weixin_client_key','pay_weixin_key','pay_weixin_open') [ RunTime:0.003690s ]
+[2020-03-21T16:48:16+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003729s ]
+[2020-03-21T16:48:40+08:00][sql] CONNECT:[ UseTime:0.005887s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-03-21T16:48:40+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.005547s ]
+[2020-03-21T16:48:40+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3ZWkubHVuZ2NhcmUuc2hvcCIsImF1ZCI6IndlaS5sdW5nY2FyZS5zaG9wIiwiaWF0IjoxNTg0NzgwNDk1LCJuYmYiOjE1ODQ3ODA0OTUsImV4cCI6MTU4NDc5MTI5NSwianRpIjp7ImlkIjoyNywidHlwZSI6IndlY2hhdCJ9fQ.nEyrE6shNOCZ5PCHLwfphdxvZr2Vr2Poym1Dn-MBQsc' LIMIT 1 [ RunTime:0.003680s ]
+[2020-03-21T16:48:40+08:00][sql] SHOW FULL COLUMNS FROM `eb_user` [ RunTime:0.005859s ]
+[2020-03-21T16:48:40+08:00][sql] SELECT * FROM `eb_user` WHERE  `uid` = 27 LIMIT 1 [ RunTime:0.003713s ]
+[2020-03-21T16:48:40+08:00][sql] CONNECT:[ UseTime:0.005575s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-03-21T16:48:40+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.004723s ]
+[2020-03-21T16:48:40+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3ZWkubHVuZ2NhcmUuc2hvcCIsImF1ZCI6IndlaS5sdW5nY2FyZS5zaG9wIiwiaWF0IjoxNTg0NzgwNDk1LCJuYmYiOjE1ODQ3ODA0OTUsImV4cCI6MTU4NDc5MTI5NSwianRpIjp7ImlkIjoyNywidHlwZSI6IndlY2hhdCJ9fQ.nEyrE6shNOCZ5PCHLwfphdxvZr2Vr2Poym1Dn-MBQsc' LIMIT 1 [ RunTime:0.003510s ]
+[2020-03-21T16:48:40+08:00][sql] SHOW FULL COLUMNS FROM `eb_user` [ RunTime:0.004903s ]
+[2020-03-21T16:48:40+08:00][sql] SELECT * FROM `eb_user` WHERE  `uid` = 27 LIMIT 1 [ RunTime:0.003512s ]
+[2020-03-21T16:48:40+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_product` [ RunTime:0.004845s ]
+[2020-03-21T16:48:40+08:00][sql] SELECT `id`,`image`,`store_name`,`cate_id`,`price`,`unit_name`,`ot_price` FROM `eb_store_product` WHERE  `is_hot` = 1  AND `is_del` = 0  AND `mer_id` = 0  AND `stock` > 0  AND `is_show` = 1 ORDER BY `sort` DESC,`id` DESC LIMIT 0,20 [ RunTime:0.003582s ]
+[2020-03-21T16:48:40+08:00][sql] CONNECT:[ UseTime:0.005182s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-03-21T16:48:40+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.004268s ]
+[2020-03-21T16:48:40+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3ZWkubHVuZ2NhcmUuc2hvcCIsImF1ZCI6IndlaS5sdW5nY2FyZS5zaG9wIiwiaWF0IjoxNTg0NzgwNDk1LCJuYmYiOjE1ODQ3ODA0OTUsImV4cCI6MTU4NDc5MTI5NSwianRpIjp7ImlkIjoyNywidHlwZSI6IndlY2hhdCJ9fQ.nEyrE6shNOCZ5PCHLwfphdxvZr2Vr2Poym1Dn-MBQsc' LIMIT 1 [ RunTime:0.003232s ]
+[2020-03-21T16:48:40+08:00][sql] SHOW FULL COLUMNS FROM `eb_user` [ RunTime:0.004736s ]
+[2020-03-21T16:48:40+08:00][sql] SELECT * FROM `eb_user` WHERE  `uid` = 27 LIMIT 1 [ RunTime:0.003313s ]
+[2020-03-21T16:48:40+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_cart` [ RunTime:0.004311s ]
+[2020-03-21T16:48:40+08:00][sql] SELECT * FROM `eb_store_cart` WHERE  `uid` = 27  AND `type` = 'product'  AND `is_pay` = 0  AND `is_del` = 0  AND `is_new` = 0 ORDER BY `add_time` DESC [ RunTime:0.003324s ]
+[2020-03-21T16:48:40+08:00][sql] CONNECT:[ UseTime:0.005299s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-03-21T16:48:40+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.004273s ]
+[2020-03-21T16:48:40+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3ZWkubHVuZ2NhcmUuc2hvcCIsImF1ZCI6IndlaS5sdW5nY2FyZS5zaG9wIiwiaWF0IjoxNTg0NzgwNDk1LCJuYmYiOjE1ODQ3ODA0OTUsImV4cCI6MTU4NDc5MTI5NSwianRpIjp7ImlkIjoyNywidHlwZSI6IndlY2hhdCJ9fQ.nEyrE6shNOCZ5PCHLwfphdxvZr2Vr2Poym1Dn-MBQsc' LIMIT 1 [ RunTime:0.003317s ]
+[2020-03-21T16:48:40+08:00][sql] SHOW FULL COLUMNS FROM `eb_user` [ RunTime:0.004560s ]
+[2020-03-21T16:48:40+08:00][sql] SELECT * FROM `eb_user` WHERE  `uid` = 27 LIMIT 1 [ RunTime:0.003299s ]
+[2020-03-21T16:48:40+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_cart` [ RunTime:0.004248s ]
+[2020-03-21T16:48:40+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_cart` WHERE  `uid` = 27  AND `type` = 'product'  AND `is_pay` = 0  AND `is_del` = 0  AND `is_new` = 0 [ RunTime:0.003271s ]
+[2020-03-21T16:48:41+08:00][sql] CONNECT:[ UseTime:0.005213s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-03-21T16:48:41+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.004485s ]
+[2020-03-21T16:48:41+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3ZWkubHVuZ2NhcmUuc2hvcCIsImF1ZCI6IndlaS5sdW5nY2FyZS5zaG9wIiwiaWF0IjoxNTg0NzgwNDk1LCJuYmYiOjE1ODQ3ODA0OTUsImV4cCI6MTU4NDc5MTI5NSwianRpIjp7ImlkIjoyNywidHlwZSI6IndlY2hhdCJ9fQ.nEyrE6shNOCZ5PCHLwfphdxvZr2Vr2Poym1Dn-MBQsc' LIMIT 1 [ RunTime:0.003172s ]
+[2020-03-21T16:48:41+08:00][sql] SHOW FULL COLUMNS FROM `eb_user` [ RunTime:0.004601s ]
+[2020-03-21T16:48:41+08:00][sql] SELECT * FROM `eb_user` WHERE  `uid` = 27 LIMIT 1 [ RunTime:0.003189s ]
+[2020-03-21T16:48:41+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_coupon_issue` [ RunTime:0.004125s ]
+[2020-03-21T16:48:41+08:00][sql] SELECT `A`.*,`B`.`coupon_price`,`B`.`use_min_price` FROM `eb_store_coupon_issue` `A` INNER JOIN `eb_store_coupon` `B` ON `A`.`cid`=`B`.`id` WHERE  `A`.`status` = 1  AND (  (  `A`.`start_time` < 1584780521  AND `A`.`end_time` > 1584780521 ) OR (  `A`.`start_time` = 0  AND `A`.`end_time` = 0 ) )  AND `A`.`is_del` = 0  AND ( A.remain_count > 0 OR A.is_permanent = 1 ) ORDER BY `B`.`sort` DESC,`A`.`id` DESC LIMIT 0,20 [ RunTime:0.003355s ]
+[2020-03-21T16:48:42+08:00][sql] CONNECT:[ UseTime:0.005305s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-03-21T16:48:42+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.004425s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3ZWkubHVuZ2NhcmUuc2hvcCIsImF1ZCI6IndlaS5sdW5nY2FyZS5zaG9wIiwiaWF0IjoxNTg0NzgwNDk1LCJuYmYiOjE1ODQ3ODA0OTUsImV4cCI6MTU4NDc5MTI5NSwianRpIjp7ImlkIjoyNywidHlwZSI6IndlY2hhdCJ9fQ.nEyrE6shNOCZ5PCHLwfphdxvZr2Vr2Poym1Dn-MBQsc' LIMIT 1 [ RunTime:0.003183s ]
+[2020-03-21T16:48:42+08:00][sql] SHOW FULL COLUMNS FROM `eb_user` [ RunTime:0.004460s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT * FROM `eb_user` WHERE  `uid` = 27 LIMIT 1 [ RunTime:0.003294s ]
+[2020-03-21T16:48:42+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_product` [ RunTime:0.004753s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT add_time,browse,cate_id,code_path,cost,description,ficti,give_integral,id,image,is_bargain,is_benefit,is_best,is_del,is_hot,is_new,is_postage,is_seckill,is_show,keyword,mer_id,mer_use,ot_price,postage,price,sales,slider_image,sort,stock,store_info,store_name,unit_name,vip_price,IFNULL(sales,0) + IFNULL(ficti,0) as fsales FROM `eb_store_product` WHERE  `is_del` = 0  AND `is_show` = 1  AND `id` = 20 LIMIT 1 [ RunTime:0.003329s ]
+[2020-03-21T16:48:42+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.004358s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003369s ]
+[2020-03-21T16:48:42+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_attachment` [ RunTime:0.004144s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_system_attachment` WHERE  `name` = '20_product_detail_wap.jpg' [ RunTime:0.003263s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT * FROM `eb_system_attachment` WHERE  `name` = '20_product_detail_wap.jpg' LIMIT 1 [ RunTime:0.003160s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003283s ]
+[2020-03-21T16:48:42+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_product_relation` [ RunTime:0.004086s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_product_relation` WHERE  `product_id` = 20  AND `uid` = 27  AND `type` = 'collect'  AND `category` = 'product' [ RunTime:0.003816s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_product_relation` WHERE  `product_id` = 20  AND `uid` = 27  AND `type` = 'like'  AND `category` = 'product' [ RunTime:0.003160s ]
+[2020-03-21T16:48:42+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_product_attr` [ RunTime:0.003953s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT * FROM `eb_store_product_attr` WHERE  `product_id` = 20 ORDER BY `attr_values` ASC [ RunTime:0.003195s ]
+[2020-03-21T16:48:42+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_product_attr_value` [ RunTime:0.004079s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT * FROM `eb_store_product_attr_value` WHERE  `product_id` = 20 [ RunTime:0.003195s ]
+[2020-03-21T16:48:42+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_visit` [ RunTime:0.004110s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT `count`,`add_time`,`id` FROM `eb_store_visit` WHERE  `uid` = 27  AND `product_id` = 20 LIMIT 1 [ RunTime:0.003168s ]
+[2020-03-21T16:48:42+08:00][sql] INSERT INTO `eb_store_visit` SET `add_time` = 1584780521 , `count` = 1 , `product_id` = 20 , `cate_id` = 27 , `type` = 'viwe' , `uid` = 27 , `content` = '' [ RunTime:0.003753s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003324s ]
+[2020-03-21T16:48:42+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_level` [ RunTime:0.004209s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT `level_id`,`is_forever`,`valid_time`,`id`,`status`,`grade` FROM `eb_user_level` WHERE  `status` = 1  AND `is_del` = 0  AND `uid` = 27 ORDER BY `grade` DESC LIMIT 1 [ RunTime:0.003156s ]
+[2020-03-21T16:48:42+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_user_level` [ RunTime:0.004151s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT `discount` FROM `eb_system_user_level` WHERE  `is_show` = 1  AND `is_del` = 0 ORDER BY `grade` ASC LIMIT 1 [ RunTime:0.003149s ]
+[2020-03-21T16:48:42+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_category` [ RunTime:0.003988s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT `pid` FROM `eb_store_category` WHERE  `id` = 27,4,2 LIMIT 1 [ RunTime:0.003152s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT `id` FROM `eb_store_category` WHERE  `pid` = 18  AND `is_show` = 1 ORDER BY `sort` DESC,`id` DESC [ RunTime:0.003174s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT `id`,`store_name`,`image`,`price`,`sales`,`ficti` FROM `eb_store_product` WHERE  `cate_id` IN (18,27)  AND `is_show` = 1  AND `is_del` = 0 ORDER BY `sort` DESC,`id` DESC LIMIT 4 [ RunTime:0.003245s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003404s ]
+[2020-03-21T16:48:42+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_product_reply` [ RunTime:0.004353s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT `A`.`product_score`,`A`.`service_score`,`A`.`comment`,`A`.`merchant_reply_content`,`A`.`merchant_reply_time`,`A`.`pics`,`A`.`add_time`,`B`.`nickname`,`B`.`avatar`,`C`.`cart_info` FROM `eb_store_product_reply` `A` INNER JOIN `eb_user` `B` ON `A`.`uid`=`B`.`uid` INNER JOIN `eb_store_order_cart_info` `C` ON `A`.`unique`=`C`.`unique` WHERE  `A`.`is_del` = 0  AND `A`.`reply_type` = 'product'  AND `A`.`product_id` = 20 ORDER BY `A`.`add_time` DESC,`A`.`product_score` DESC,`A`.`service_score` DESC,`A`.`add_time` DESC LIMIT 1 [ RunTime:0.003410s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_product_reply` WHERE  `is_del` = 0  AND `reply_type` = 'product'  AND `product_id` = 20 [ RunTime:0.003185s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_store_product_reply` WHERE  `is_del` = 0  AND `reply_type` = 'product'  AND `product_id` = 20  AND `product_score` = 5 [ RunTime:0.003155s ]
+[2020-03-21T16:48:42+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_store` [ RunTime:0.004224s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT * FROM `eb_system_store` WHERE  `is_show` = 1  AND `is_del` = 0 LIMIT 1 [ RunTime:0.003150s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT `image`,`store_name`,`price`,`id`,`ot_price` FROM `eb_store_product` WHERE  `is_del` = 0  AND `is_show` = 1  AND `mer_id` = 0  AND `is_good` = 1 ORDER BY `sort` DESC,`id` DESC LIMIT 18 [ RunTime:0.003193s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003262s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003233s ]
+[2020-03-21T16:48:42+08:00][sql] CONNECT:[ UseTime:0.005731s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-03-21T16:48:42+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.004697s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3ZWkubHVuZ2NhcmUuc2hvcCIsImF1ZCI6IndlaS5sdW5nY2FyZS5zaG9wIiwiaWF0IjoxNTg0NzgwNDk1LCJuYmYiOjE1ODQ3ODA0OTUsImV4cCI6MTU4NDc5MTI5NSwianRpIjp7ImlkIjoyNywidHlwZSI6IndlY2hhdCJ9fQ.nEyrE6shNOCZ5PCHLwfphdxvZr2Vr2Poym1Dn-MBQsc' LIMIT 1 [ RunTime:0.003502s ]
+[2020-03-21T16:48:42+08:00][sql] SHOW FULL COLUMNS FROM `eb_user` [ RunTime:0.004825s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT * FROM `eb_user` WHERE  `uid` = 27 LIMIT 1 [ RunTime:0.003469s ]
+[2020-03-21T16:48:42+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_cart` [ RunTime:0.004608s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT SUM(`cart_num`) AS think_sum FROM `eb_store_cart` WHERE  `uid` = 27  AND `type` = 'product'  AND `is_pay` = 0  AND `is_del` = 0  AND `is_new` = 0 [ RunTime:0.003528s ]
+[2020-03-21T16:48:42+08:00][sql] CONNECT:[ UseTime:0.005466s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-03-21T16:48:42+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.004425s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3ZWkubHVuZ2NhcmUuc2hvcCIsImF1ZCI6IndlaS5sdW5nY2FyZS5zaG9wIiwiaWF0IjoxNTg0NzgwNDk1LCJuYmYiOjE1ODQ3ODA0OTUsImV4cCI6MTU4NDc5MTI5NSwianRpIjp7ImlkIjoyNywidHlwZSI6IndlY2hhdCJ9fQ.nEyrE6shNOCZ5PCHLwfphdxvZr2Vr2Poym1Dn-MBQsc' LIMIT 1 [ RunTime:0.003467s ]
+[2020-03-21T16:48:42+08:00][sql] SHOW FULL COLUMNS FROM `eb_user` [ RunTime:0.004767s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT * FROM `eb_user` WHERE  `uid` = 27 LIMIT 1 [ RunTime:0.003534s ]
+[2020-03-21T16:48:42+08:00][sql] CONNECT:[ UseTime:0.005175s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-03-21T16:48:42+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.004200s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3ZWkubHVuZ2NhcmUuc2hvcCIsImF1ZCI6IndlaS5sdW5nY2FyZS5zaG9wIiwiaWF0IjoxNTg0NzgwNDk1LCJuYmYiOjE1ODQ3ODA0OTUsImV4cCI6MTU4NDc5MTI5NSwianRpIjp7ImlkIjoyNywidHlwZSI6IndlY2hhdCJ9fQ.nEyrE6shNOCZ5PCHLwfphdxvZr2Vr2Poym1Dn-MBQsc' LIMIT 1 [ RunTime:0.003273s ]
+[2020-03-21T16:48:42+08:00][sql] SHOW FULL COLUMNS FROM `eb_user` [ RunTime:0.004591s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT * FROM `eb_user` WHERE  `uid` = 27 LIMIT 1 [ RunTime:0.003332s ]
+[2020-03-21T16:48:42+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.004193s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT `menu_name`,`value` FROM `eb_system_config` WHERE  `menu_name` IN ('wechat_appid','wechat_appsecret','wechat_token','wechat_encodingaeskey','wechat_encode') [ RunTime:0.003285s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT `menu_name`,`value` FROM `eb_system_config` WHERE  `menu_name` IN ('pay_weixin_mchid','pay_weixin_client_cert','pay_weixin_client_key','pay_weixin_key','pay_weixin_open') [ RunTime:0.003152s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003258s ]
+[2020-03-21T16:48:42+08:00][sql] CONNECT:[ UseTime:0.005587s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-03-21T16:48:42+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.004464s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3ZWkubHVuZ2NhcmUuc2hvcCIsImF1ZCI6IndlaS5sdW5nY2FyZS5zaG9wIiwiaWF0IjoxNTg0NzgwNDk1LCJuYmYiOjE1ODQ3ODA0OTUsImV4cCI6MTU4NDc5MTI5NSwianRpIjp7ImlkIjoyNywidHlwZSI6IndlY2hhdCJ9fQ.nEyrE6shNOCZ5PCHLwfphdxvZr2Vr2Poym1Dn-MBQsc' LIMIT 1 [ RunTime:0.003441s ]
+[2020-03-21T16:48:42+08:00][sql] SHOW FULL COLUMNS FROM `eb_user` [ RunTime:0.004681s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT * FROM `eb_user` WHERE  `uid` = 27 LIMIT 1 [ RunTime:0.003452s ]
+[2020-03-21T16:48:42+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.004364s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT `menu_name`,`value` FROM `eb_system_config` WHERE  `menu_name` IN ('wechat_appid','wechat_appsecret','wechat_token','wechat_encodingaeskey','wechat_encode') [ RunTime:0.003414s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT `menu_name`,`value` FROM `eb_system_config` WHERE  `menu_name` IN ('pay_weixin_mchid','pay_weixin_client_cert','pay_weixin_client_key','pay_weixin_key','pay_weixin_open') [ RunTime:0.003400s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003535s ]
+[2020-03-21T16:48:42+08:00][sql] CONNECT:[ UseTime:0.006408s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-03-21T16:48:42+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.005141s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3ZWkubHVuZ2NhcmUuc2hvcCIsImF1ZCI6IndlaS5sdW5nY2FyZS5zaG9wIiwiaWF0IjoxNTg0NzgwNDk1LCJuYmYiOjE1ODQ3ODA0OTUsImV4cCI6MTU4NDc5MTI5NSwianRpIjp7ImlkIjoyNywidHlwZSI6IndlY2hhdCJ9fQ.nEyrE6shNOCZ5PCHLwfphdxvZr2Vr2Poym1Dn-MBQsc' LIMIT 1 [ RunTime:0.003952s ]
+[2020-03-21T16:48:42+08:00][sql] SHOW FULL COLUMNS FROM `eb_user` [ RunTime:0.005248s ]
+[2020-03-21T16:48:42+08:00][sql] SELECT * FROM `eb_user` WHERE  `uid` = 27 LIMIT 1 [ RunTime:0.003981s ]
+[2020-03-21T16:48:43+08:00][sql] CONNECT:[ UseTime:0.005515s ] mysql:host=zy-ying123.mysql.rds.aliyuncs.com;port=3306;dbname=lungcare;charset=utf8
+[2020-03-21T16:48:43+08:00][sql] SHOW FULL COLUMNS FROM `eb_user_token` [ RunTime:0.004548s ]
+[2020-03-21T16:48:43+08:00][sql] SELECT * FROM `eb_user_token` WHERE  `token` = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3ZWkubHVuZ2NhcmUuc2hvcCIsImF1ZCI6IndlaS5sdW5nY2FyZS5zaG9wIiwiaWF0IjoxNTg0NzgwNDk1LCJuYmYiOjE1ODQ3ODA0OTUsImV4cCI6MTU4NDc5MTI5NSwianRpIjp7ImlkIjoyNywidHlwZSI6IndlY2hhdCJ9fQ.nEyrE6shNOCZ5PCHLwfphdxvZr2Vr2Poym1Dn-MBQsc' LIMIT 1 [ RunTime:0.003231s ]
+[2020-03-21T16:48:43+08:00][sql] SHOW FULL COLUMNS FROM `eb_user` [ RunTime:0.004553s ]
+[2020-03-21T16:48:43+08:00][sql] SELECT * FROM `eb_user` WHERE  `uid` = 27 LIMIT 1 [ RunTime:0.003214s ]
+[2020-03-21T16:48:43+08:00][sql] SHOW FULL COLUMNS FROM `eb_store_product` [ RunTime:0.004550s ]
+[2020-03-21T16:48:43+08:00][sql] SELECT `id` FROM `eb_store_product` WHERE  `is_del` = 0  AND `is_show` = 1  AND `id` = 20 LIMIT 1 [ RunTime:0.003153s ]
+[2020-03-21T16:48:43+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_attachment` [ RunTime:0.004017s ]
+[2020-03-21T16:48:43+08:00][sql] SELECT COUNT(*) AS think_count FROM `eb_system_attachment` WHERE  `name` = '20_product_detail_27_is_promoter_0_wap.jpg' [ RunTime:0.003131s ]
+[2020-03-21T16:48:43+08:00][sql] SHOW FULL COLUMNS FROM `eb_system_config` [ RunTime:0.004183s ]
+[2020-03-21T16:48:43+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003320s ]
+[2020-03-21T16:48:43+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003363s ]
+[2020-03-21T16:48:43+08:00][sql] SELECT * FROM `eb_system_config` WHERE  `menu_name` = 'cache_config' LIMIT 1 [ RunTime:0.003193s ]
+[2020-03-21T16:48:43+08:00][sql] INSERT INTO `eb_system_attachment` SET `name` = '20_product_detail_27_is_promoter_0_wap.jpg' , `att_dir` = '/uploads/qrcode/20_product_detail_27_is_promoter_0_wap.jpg' , `satt_dir` = '/uploads/qrcode/20_product_detail_27_is_promoter_0_wap.jpg' , `att_size` = 0 , `att_type` = 'image/jpeg' , `image_type` = 1 , `module_type` = 2 , `time` = 1584780522 , `pid` = 1 [ RunTime:0.003172s ]
+[2020-03-21T16:49:48+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T16:49:52+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T16:50:36+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T16:50:52+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T16:51:35+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T16:51:51+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T17:22:53+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T17:39:23+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T17:39:54+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T17:46:20+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T18:06:37+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T18:37:54+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T18:41:51+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T19:19:14+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T19:19:36+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T19:19:38+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T19:26:59+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T19:27:01+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T19:38:54+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T19:52:54+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T20:01:24+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T20:06:17+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T20:37:30+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T21:38:18+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T21:51:28+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T22:39:26+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T22:59:28+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T23:39:10+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
+[2020-03-21T23:42:29+08:00][info] [ VIEW ] /home/wwwroot/www/lungcare/public/index.html [ array (
+) ]
